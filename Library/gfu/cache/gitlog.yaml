@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-12-04T15:53:22.466-05:00
+  initializedAtString: 2019-12-04T15:49:35.976-05:00
+  log:
+  - commitID: 121897a7e38bef292deeaf1e947094c45f4ffe10
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Moving boat left/right on tap
+    description: 
+    timeString: 2019-12-04T15:42:02.000-05:00
+    commitTimeString: 2019-12-04T15:42:02.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: d150bdd0b66bd27272b29206cf99df3bc5dfbd22
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Debug message on tapping the screen
+    description: 
+    timeString: 2019-12-04T15:07:36.000-05:00
+    commitTimeString: 2019-12-04T15:07:36.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 633454116d8166713b16ee69218b789eddb399b9
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Initial Commit - With Assests imported
+    description: 
+    timeString: 2019-12-04T15:03:56.000-05:00
+    commitTimeString: 2019-12-04T15:03:56.000-05:00
+    changes:
+    - path: Assembly-CSharp.csproj
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Boat RacingGame.sln
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Boat RacingGame.sln
+      projectPath: Boat RacingGame.sln
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.Timeline.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.Timeline.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/UnityEditor.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/UnityEditor.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/UnityEngine.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/UnityEngine.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

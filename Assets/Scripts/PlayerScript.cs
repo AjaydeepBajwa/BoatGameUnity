@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     public int speed;
     private Vector2 direction;
+    public float minimumX, maximumX;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +35,10 @@ public class PlayerScript : MonoBehaviour
         float moveAmount = speed * Time.deltaTime;
         transform.Translate(moveAmount * direction);
 
+        //x coordinate for left boat should be -2.75 to -0.9
+        Vector2 currentPosition = transform.position;
+        //Using Clamp function to keep the boat between two lanes i.e. minimumX to maximumX
+        currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
+        transform.position = currentPosition;
     }
 }
