@@ -27,26 +27,30 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.mousePosition.x <= Screen.width / 2)
+        if (boatPosition == "left")
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.mousePosition.x <= Screen.width / 2)
             {
-                Debug.Log("clicked");
-                if (direction == Vector2.zero)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    direction = Vector2.right;
-                }
-                else if (direction == Vector2.right)
-                {
-                    direction = Vector2.left;
-                }
-                else if (direction == Vector2.left)
-                {
-                    direction = Vector2.right;
+                    Debug.Log("clicked");
+                    if (direction == Vector2.zero)
+                    {
+                        direction = Vector2.right;
+                    }
+                    else if (direction == Vector2.right)
+                    {
+                        direction = Vector2.left;
+                    }
+                    else if (direction == Vector2.left)
+                    {
+                        direction = Vector2.right;
+                    }
                 }
             }
+
         }
-        
+
         float moveAmount = speed * Time.deltaTime;
         transform.Translate(moveAmount * direction);
 
