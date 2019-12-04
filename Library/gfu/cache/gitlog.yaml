@@ -13,9 +13,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-12-04T16:15:58.153-05:00
+  lastUpdatedAtString: 2019-12-04T16:18:50.110-05:00
   initializedAtString: 2019-12-04T15:49:35.976-05:00
   log:
+  - commitID: c40f8b3a3c244dde369fa903a9cc28cb2478f5ce
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: More Unity Files
+    description: 
+    timeString: 2019-12-04T16:17:19.000-05:00
+    commitTimeString: 2019-12-04T16:17:19.000-05:00
+    changes:
+    - path: .vs/Boat RacingGame/xs/UserPrefs.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/UserPrefs.xml
+      projectPath: .vs/Boat RacingGame/xs/UserPrefs.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      projectPath: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      projectPath: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/sqlite3/storage.ide
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/sqlite3/storage.ide
+      projectPath: .vs/Boat RacingGame/xs/sqlite3/storage.ide
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/sqlite3/storage.ide-shm
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/sqlite3/storage.ide-shm
+      projectPath: .vs/Boat RacingGame/xs/sqlite3/storage.ide-shm
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
+      projectPath: .vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/301e84-mainStage.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/Hierarchy/301e84-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/301e84-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/34/3455545796c8448adba7f973397019c7
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/34/3455545796c8448adba7f973397019c7
+      projectPath: Library/metadata/34/3455545796c8448adba7f973397019c7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a834c5462fb7541fe8645e548831300b
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-a834c5462fb7541fe8645e548831300b
+      projectPath: Temp/UnityTempFile-a834c5462fb7541fe8645e548831300b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj/Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/obj/Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj/Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: a7fd5e07f18cd3bcb5cdcc4a0015d2457b8f8c0b
     mergeA: 
     mergeB: 
