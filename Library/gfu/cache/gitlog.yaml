@@ -13,9 +13,231 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-12-04T16:18:50.110-05:00
+  lastUpdatedAtString: 2019-12-04T17:05:40.832-05:00
   initializedAtString: 2019-12-04T15:49:35.976-05:00
   log:
+  - commitID: 30e57ad2a1bebc55e872772ceea3ce10e7f3c5c0
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Moving left boat on tapping left, right boat on tapping right
+    description: 
+    timeString: 2019-12-04T17:05:38.000-05:00
+    commitTimeString: 2019-12-04T17:05:38.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b4d388bd1313ea021de1ab233ab0f1193c7c1dd9
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Only moving left boat on tapping on left side of screen
+    description: 
+    timeString: 2019-12-04T16:56:39.000-05:00
+    commitTimeString: 2019-12-04T16:56:39.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fc476cc77448076bba3d1558125700cb6abd5c41
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Moving boats only on tapping on left side of screen
+    description: 
+    timeString: 2019-12-04T16:54:40.000-05:00
+    commitTimeString: 2019-12-04T16:54:40.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 79fd47131cd39cb5198d74793b57b2e2700a7868
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Added code to move boats in different directions
+    description: 
+    timeString: 2019-12-04T16:52:36.000-05:00
+    commitTimeString: 2019-12-04T16:52:36.000-05:00
+    changes:
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a09b5943890ce11746bb10127d7fedb767f11e70
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Added right boat to scene
+    description: 
+    timeString: 2019-12-04T16:33:23.000-05:00
+    commitTimeString: 2019-12-04T16:33:23.000-05:00
+    changes:
+    - path: Assets/Prefabs/boat1Prefab.prefab
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Prefabs/boat1Prefab.prefab
+      projectPath: Assets/Prefabs/boat1Prefab.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/boat2.png
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/boat2.png
+      projectPath: Assets/boat2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/boat2.png.meta
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/boat2.png.meta
+      projectPath: Assets/boat2.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
+      projectPath: Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
+      projectPath: Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
+      projectPath: Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/301e84-mainStage.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/Hierarchy/301e84-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/301e84-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/SceneView/a6456e-mainStage.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/SceneView/a6456e-mainStage.json
+      projectPath: Library/StateCache/SceneView/a6456e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/06/068a4e2d6757c404599007165b81e984
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/06/068a4e2d6757c404599007165b81e984
+      projectPath: Library/metadata/06/068a4e2d6757c404599007165b81e984
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/06/068a4e2d6757c404599007165b81e984.info
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/06/068a4e2d6757c404599007165b81e984.info
+      projectPath: Library/metadata/06/068a4e2d6757c404599007165b81e984.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
+      projectPath: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
+      projectPath: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: c40f8b3a3c244dde369fa903a9cc28cb2478f5ce
     mergeA: 
     mergeB: 

@@ -13,24 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-04T16:32:19.675-05:00
+  lastUpdatedAtString: 2019-12-04T17:05:39.671-05:00
   initializedAtString: 2019-12-04T15:51:56.531-05:00
   entries:
-  - path: Assets/boat2.png
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/boat2.png
-    projectPath: Assets/boat2.png
+  - path: .vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/Boat RacingGame/xs/sqlite3/storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/boat2.png.meta
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/boat2.png.meta
-    projectPath: Assets/boat2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Prefabs/boat1Prefab.prefab
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Prefabs/boat1Prefab.prefab
-    projectPath: Assets/Prefabs/boat1Prefab.prefab
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs/Boat RacingGame/xs/UserPrefs.xml
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/UserPrefs.xml
+    projectPath: .vs/Boat RacingGame/xs/UserPrefs.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -82,51 +76,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/06/068a4e2d6757c404599007165b81e984
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/06/068a4e2d6757c404599007165b81e984
-    projectPath: Library/metadata/06/068a4e2d6757c404599007165b81e984
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/06/068a4e2d6757c404599007165b81e984.info
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/06/068a4e2d6757c404599007165b81e984.info
-    projectPath: Library/metadata/06/068a4e2d6757c404599007165b81e984.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
-    projectPath: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19
+  - path: Library/metadata/34/3455545796c8448adba7f973397019c7
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/34/3455545796c8448adba7f973397019c7
+    projectPath: Library/metadata/34/3455545796c8448adba7f973397019c7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
-    projectPath: Library/metadata/ef/efc32e4b861ce4dec9f7d2b9ce7a9e19.info
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
-    projectPath: Library/ShaderCache/3/32103728a56b7908b1bf46666ef785c3.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
-    projectPath: Library/ShaderCache/3/36bf70fda7ba101f3b6625cae059bcea.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
-    projectPath: Library/StateCache/Hierarchy/301e84-efc32e4b861ce4dec9.json
+  - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -142,15 +106,75 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings/QualitySettings.asset
-    fullPath: /Users/AJAY-MAC/Boat RacingGame/ProjectSettings/QualitySettings.asset
-    projectPath: ProjectSettings/QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp/__Backupscenes/0.backup
     fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/__Backupscenes/0.backup
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Temp/UnityTempFile-00552bb636a6d4d89b69342445263e5b
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-00552bb636a6d4d89b69342445263e5b
+    projectPath: Temp/UnityTempFile-00552bb636a6d4d89b69342445263e5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-1a355f9a2bd1d4fa396f212f428e6db1
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-1a355f9a2bd1d4fa396f212f428e6db1
+    projectPath: Temp/UnityTempFile-1a355f9a2bd1d4fa396f212f428e6db1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-1dc25933d0545428b9462497f2ac5ed9
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-1dc25933d0545428b9462497f2ac5ed9
+    projectPath: Temp/UnityTempFile-1dc25933d0545428b9462497f2ac5ed9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-1edb1a5b9853c462e9c574c60e64d355
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-1edb1a5b9853c462e9c574c60e64d355
+    projectPath: Temp/UnityTempFile-1edb1a5b9853c462e9c574c60e64d355
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-40bbe7c7382f04888b554aa1a40c0c8f
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-40bbe7c7382f04888b554aa1a40c0c8f
+    projectPath: Temp/UnityTempFile-40bbe7c7382f04888b554aa1a40c0c8f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5d1cead9d910b4e789b0c42443373c73
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-5d1cead9d910b4e789b0c42443373c73
+    projectPath: Temp/UnityTempFile-5d1cead9d910b4e789b0c42443373c73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-73c1dab31e98249aea54978d69827443
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-73c1dab31e98249aea54978d69827443
+    projectPath: Temp/UnityTempFile-73c1dab31e98249aea54978d69827443
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-aef13c629eaae490f840af504e6865da
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-aef13c629eaae490f840af504e6865da
+    projectPath: Temp/UnityTempFile-aef13c629eaae490f840af504e6865da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c994e882c1203439dbe451c4dfc80c87
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-c994e882c1203439dbe451c4dfc80c87
+    projectPath: Temp/UnityTempFile-c994e882c1203439dbe451c4dfc80c87
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-cde7c957733e04019aa4fd2a5c64715b
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-cde7c957733e04019aa4fd2a5c64715b
+    projectPath: Temp/UnityTempFile-cde7c957733e04019aa4fd2a5c64715b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e51efe228baa0406d958b5be88ebbdfc
+    fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-e51efe228baa0406d958b5be88ebbdfc
+    projectPath: Temp/UnityTempFile-e51efe228baa0406d958b5be88ebbdfc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

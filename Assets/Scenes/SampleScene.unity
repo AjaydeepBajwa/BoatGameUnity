@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 1428414196}
   - component: {fileID: 1428414195}
   m_Layer: 0
-  m_Name: boat2
+  m_Name: rightBoat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,6 +236,7 @@ MonoBehaviour:
   speed: 5
   minimumX: 0.9
   maximumX: 2.75
+  boatPosition: right
 --- !u!212 &1428414196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -293,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428414194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9, y: -4.87, z: 0}
+  m_LocalPosition: {x: 2.75, y: -4.87, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -309,7 +310,7 @@ PrefabInstance:
     - target: {fileID: 2262190245215709804, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
         type: 3}
       propertyPath: m_Name
-      value: boat
+      value: leftBoat
       objectReference: {fileID: 0}
     - target: {fileID: 2262190245215709806, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
         type: 3}
@@ -365,6 +366,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339209782470833154, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
+        type: 3}
+      propertyPath: isBoatLeft
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339209782470833154, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
+        type: 3}
+      propertyPath: boatPosition
+      value: left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19, type: 3}
