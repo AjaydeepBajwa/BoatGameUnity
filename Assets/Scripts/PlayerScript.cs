@@ -7,10 +7,21 @@ public class PlayerScript : MonoBehaviour
     public int speed;
     private Vector2 direction;
     public float minimumX, maximumX;
+    public string boatPosition;
     // Start is called before the first frame update
     void Start()
     {
-        direction = Vector2.zero;
+        if (boatPosition == "left")
+        {
+            //boat is left
+            direction = Vector2.left;
+        }
+        else
+        {
+            //boat is right
+            direction = Vector2.right;
+        }
+        //direction = Vector2.zero;
     }
 
     // Update is called once per frame
