@@ -37,7 +37,7 @@ public class PlayerScript : MonoBehaviour
 
         //x coordinate for left boat should be -2.75 to -0.9
         Vector2 currentPosition = transform.position;
-        //Using Clamp function to keep the boat between two lanes i.e. minimumX to maximumX
+        //Using Clamp function to keep the boat between two lanes i.e. between minimumX to maximumX
         currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
         transform.position = currentPosition;
     }
