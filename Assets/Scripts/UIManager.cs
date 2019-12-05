@@ -16,6 +16,12 @@ public class UIManager : MonoBehaviour
         
     }
 
+    public void PlaySingle()
+    {
+        Debug.Log("Loaded 1P Scene");
+        Application.LoadLevel("1PScene");
+    }
+
     public void Pause()
     {
    
