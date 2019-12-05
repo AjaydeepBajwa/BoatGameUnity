@@ -1,7 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameDataManager
     - PlayerScript
+    GitHub.Unity.45.dll:
+    - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
+    - GitHub.Unity.EnvironmentCache
+    - GitHub.Unity.GitAheadBehindCache
+    - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitLogCache
+    - GitHub.Unity.GitStatusCache
+    - GitHub.Unity.GitUserCache
+    - GitHub.Unity.RepositoryInfoCache
+    - GitHub.Unity.Window
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -31,6 +43,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 13318}
+    - Class: 114
+      Script: {instanceID: 18734}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -456,10 +470,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 38027d9994f7f10eb89d2bff3a3aa9c5
+      Hash: 6081611e4425f456a1cebc152417e684
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 24f1b07102dd5f7a235f98a222a9375a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameDataManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
