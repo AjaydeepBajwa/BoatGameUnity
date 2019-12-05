@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
     private Vector2 direction;
     public float minimumX, maximumX;
     public string boatPosition;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -93,7 +94,9 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Circle")
         {
-
+            score++;
+            Debug.Log(score + " points");
+            Destroy(collision.gameObject);
         }
         if (collision.gameObject.tag == "Obstacle")
         {
