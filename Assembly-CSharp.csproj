@@ -64,8 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MoveCircle.cs" />
+    <Compile Include="Assets\Scripts\ObjectRemover.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\SpawnObjects.cs" />
+    <Compile Include="Assets\Scripts\SpawnPickups.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
