@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    int score;
+    public Button[] buttons;
+    public int score = 0;
     public Text txtScore;
     bool gotCircle;
     // Start is called before the first frame update
@@ -19,6 +21,12 @@ public class UIManager : MonoBehaviour
     { 
         
     }
+
+    void OnDisable()
+    {
+        PlayerPrefs.SetInt("score", score);
+    }
+
     public void addScore()
     {
         score++;
@@ -38,11 +46,21 @@ public class UIManager : MonoBehaviour
         {
             Time.timeScale = 0;
             Debug.Log("Paused Game");
+            buttons[0].gameObject.SetActive(true);
+            buttons[1].gameObject.SetActive(true);
+            buttons[2].gameObject.SetActive(true);
         }
         else if (Time.timeScale == 0)
         {
             Time.timeScale = 1;
             Debug.Log("Resumed Game");
+            buttons[0].gameObject.SetActive(false);
+            buttons[1].gameObject.SetActive(false);
+            buttons[2].gameObject.SetActive(false);
         }
+    }
+    public void Quit()
+    {
+        SceneManager.LoadScene(2);
     }
 }
