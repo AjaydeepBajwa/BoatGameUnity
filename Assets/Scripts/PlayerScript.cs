@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -8,10 +10,23 @@ public class PlayerScript : MonoBehaviour
     private Vector2 direction;
     public float minimumX, maximumX;
     public string boatPosition;
-    public int score;
+    //bool gotCircle;
+    //public int score;
+    //public Text points;
+    bool gameOver;
+
+    public UIManager uiManager;
+
+    private void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        //uiManager = GetComponent<UIManager>();
+        gameOver = false;
         if (boatPosition == "left")
         {
             //boat is left
@@ -94,13 +109,21 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Circle")
         {
-            score++;
-            Debug.Log(score + " points");
+            //score++;
+            //points.text = ""+score;
+            //Debug.Log(score + " points");
+            //gotCircle = true;
             Destroy(collision.gameObject);
+            //points.text = "" + score;
+            //gotCircle = false;
+            uiManager.addScore();
         }
         if (collision.gameObject.tag == "Obstacle")
         {
             Destroy(gameObject);
+            gameOver = true;
+            //Application.LoadLevel(1);
+            SceneManager.LoadScene(1);
         }
     }
 }

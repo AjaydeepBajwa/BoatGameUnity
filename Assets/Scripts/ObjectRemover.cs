@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectRemover : MonoBehaviour
 {
@@ -17,9 +18,13 @@ public class ObjectRemover : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if ((collision.gameObject.tag == "Obstacle")||(collision.gameObject.tag == "Circle"))
+        if ((collision.gameObject.tag == "Obstacle"))
         {
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "Circle")
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }

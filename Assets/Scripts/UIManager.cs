@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    int score;
+    public Text txtScore;
+    bool gotCircle;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,8 +16,13 @@ public class UIManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         
+    }
+    public void addScore()
+    {
+        score++;
+        txtScore.text = "" + score;
     }
 
     public void PlaySingle()
