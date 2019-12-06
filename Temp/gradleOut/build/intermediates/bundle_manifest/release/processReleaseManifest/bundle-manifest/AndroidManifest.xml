@@ -20,6 +20,15 @@
     <uses-feature
         android:name="android.hardware.vulkan"
         android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -57,7 +66,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="1f6fe643-7819-4f29-b638-0ade8df11ee9" />
+            android:value="b5369a74-aab4-4a35-92f6-a6983e0eaa09" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
