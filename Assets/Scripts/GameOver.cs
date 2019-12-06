@@ -8,14 +8,23 @@ public class GameOver : MonoBehaviour
 {
     //public UIManager uiManager;
     int score;
+    int highScore;
     public Text txtFinalScore;
+    public Text txtHighScore;
     // Start is called before the first frame update
     void Start()
     {
         //uiManager = GetComponent<UIManager>();
+        highScore = PlayerPrefs.GetInt("highScore");
         score = PlayerPrefs.GetInt("score");
+        if (score > highScore)
+        {
+            PlayerPrefs.SetInt("highScore", score);
+            highScore = PlayerPrefs.GetInt("highScore");
+        }
         Debug.Log("Final Score: " +score);
         txtFinalScore.text = "SCORE: " +score;
+        txtHighScore.text = "HIGH: " + highScore;
     }
 
     // Update is called once per frame
