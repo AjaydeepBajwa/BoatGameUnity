@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - GameOver
+    - MicInputCheck
     - MoveCircle
     - ObjectRemover
     - PlayerScript
@@ -88,6 +89,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 29504}
     - Class: 114
       Script: {instanceID: 53888}
+    - Class: 114
+      Script: {instanceID: 68308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -137,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11610}
     - Class: 114
       Script: {instanceID: 45020}
+    - Class: 114
+      Script: {instanceID: 68308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -186,6 +191,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11610}
     - Class: 114
       Script: {instanceID: 29504}
+    - Class: 114
+      Script: {instanceID: 68308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -619,7 +626,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: ceef4b355178d3d4d5dcbda81a66c177
+      Hash: 18bdd49cdbc7c32c5e7f1fdcd3a12cca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -659,6 +666,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0367587946927acd1bcfab5617bea4bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MicInputCheck
   platform: 13
   scenePathNames:
   - Assets/Scenes/1PScene.unity

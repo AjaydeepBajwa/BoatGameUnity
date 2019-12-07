@@ -10,7 +10,8 @@ public class MicInputCheck : MonoBehaviour
 
     public Button buttons;
     public Text MicText;
-    public Text SPMicText;
+    //public Text SPMicText;
+    //public Text EndGameMicText;
 
     //mic initialization
     void InitMic()
@@ -68,15 +69,16 @@ public class MicInputCheck : MonoBehaviour
         //Debug.Log("MIC LOUDNESS: " + MicLoudness);
         if (MicLoudness > 0.8)
         {
+            //EndGameMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
             MicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
-            SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
+            //SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
             //buttons.gameObject.SetActive(false);
             //playerScript.setDashActive();
             //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
         }
         else
         {
-            SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
+            //SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
         }
     }
 

@@ -13,9 +13,1257 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-12-06T00:57:08.623-05:00
+  lastUpdatedAtString: 2019-12-07T13:42:12.706-05:00
   initializedAtString: 2019-12-04T15:49:35.976-05:00
   log:
+  - commitID: 35606b14e4381a644fef929f67a9b11fcd782083
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Added Mic Input feature to 1PScene
+    description: 
+    timeString: 2019-12-07T13:42:03.000-05:00
+    commitTimeString: 2019-12-07T13:42:03.000-05:00
+    changes:
+    - path: Assets/Scenes/1PScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/1PScene.unity
+      projectPath: Assets/Scenes/1PScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameEndScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/GameEndScene.unity
+      projectPath: Assets/Scenes/GameEndScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/MenuScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/MenuScene.unity
+      projectPath: Assets/Scenes/MenuScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/MicInputCheck.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/MicInputCheck.cs
+      projectPath: Assets/Scripts/MicInputCheck.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a63eb94a0322ffa9f827b8a89380a9cef40111eb
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Testing,Debugging Blow feature on phone
+    description: 
+    timeString: 2019-12-06T20:20:05.000-05:00
+    commitTimeString: 2019-12-06T20:20:05.000-05:00
+    changes:
+    - path: Assets/Scenes/1PScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/1PScene.unity
+      projectPath: Assets/Scenes/1PScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/MenuScene.unity
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scenes/MenuScene.unity
+      projectPath: Assets/Scenes/MenuScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/MicInputCheck.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/MicInputCheck.cs
+      projectPath: Assets/Scripts/MicInputCheck.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/MicInputCheck.cs.meta
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/MicInputCheck.cs.meta
+      projectPath: Assets/Scripts/MicInputCheck.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/PlayerScript.cs
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assets/Scripts/PlayerScript.cs
+      projectPath: Assets/Scripts/PlayerScript.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 53e8bb865a9b472e8c35ca49d4a2a885b7c21291
+    mergeA: 
+    mergeB: 
+    authorName: AJAY-MAC
+    authorEmail: letv4545@gmail.com
+    commitEmail: letv4545@gmail.com
+    commitName: AJAY-MAC
+    summary: Automatically generated files
+    description: 
+    timeString: 2019-12-06T00:57:32.000-05:00
+    commitTimeString: 2019-12-06T00:57:32.000-05:00
+    changes:
+    - path: .vs/Boat RacingGame/xs/UserPrefs.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/UserPrefs.xml
+      projectPath: .vs/Boat RacingGame/xs/UserPrefs.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/.vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      projectPath: .vs/Boat RacingGame/xs/project-cache/Assembly-CSharp-Debug.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: BoatRacingGameAndroid.apk
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/BoatRacingGameAndroid.apk
+      projectPath: BoatRacingGameAndroid.apk
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/LastBuild.buildreport
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/LastBuild.buildreport
+      projectPath: Library/LastBuild.buildreport
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+      projectPath: Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+      projectPath: Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+      projectPath: Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+      projectPath: Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/boot.config
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/boot.config
+      projectPath: Library/PlayerDataCache/Android/Data/boot.config
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/globalgamemanagers
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/globalgamemanagers
+      projectPath: Library/PlayerDataCache/Android/Data/globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/globalgamemanagers.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/globalgamemanagers.assets
+      projectPath: Library/PlayerDataCache/Android/Data/globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/level0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/level0
+      projectPath: Library/PlayerDataCache/Android/Data/level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/level1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/level1
+      projectPath: Library/PlayerDataCache/Android/Data/level1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/level2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/level2
+      projectPath: Library/PlayerDataCache/Android/Data/level2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/sharedassets0.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/sharedassets0.assets
+      projectPath: Library/PlayerDataCache/Android/Data/sharedassets0.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/sharedassets0.resource
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/sharedassets0.resource
+      projectPath: Library/PlayerDataCache/Android/Data/sharedassets0.resource
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/sharedassets1.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/sharedassets1.assets
+      projectPath: Library/PlayerDataCache/Android/Data/sharedassets1.assets
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/Data/sharedassets2.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/Data/sharedassets2.assets
+      projectPath: Library/PlayerDataCache/Android/Data/sharedassets2.assets
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml
+      projectPath: Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/301e84-mainStage.json
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/StateCache/Hierarchy/301e84-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/301e84-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/15/15199729c40394439819b7c60949ccf5
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/15/15199729c40394439819b7c60949ccf5
+      projectPath: Library/metadata/15/15199729c40394439819b7c60949ccf5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/34/3455545796c8448adba7f973397019c7
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/34/3455545796c8448adba7f973397019c7
+      projectPath: Library/metadata/34/3455545796c8448adba7f973397019c7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/3a/3af4cd251def245978a6ce208062a769
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/3a/3af4cd251def245978a6ce208062a769
+      projectPath: Library/metadata/3a/3af4cd251def245978a6ce208062a769
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/3a/3af4cd251def245978a6ce208062a769.info
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/3a/3af4cd251def245978a6ce208062a769.info
+      projectPath: Library/metadata/3a/3af4cd251def245978a6ce208062a769.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/3a/3af4cd251def245978a6ce208062a769.resource
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/3a/3af4cd251def245978a6ce208062a769.resource
+      projectPath: Library/metadata/3a/3af4cd251def245978a6ce208062a769.resource
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/ae/ae5048a544c034533b7c37f746fe14a3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/ae/ae5048a544c034533b7c37f746fe14a3
+      projectPath: Library/metadata/ae/ae5048a544c034533b7c37f746fe14a3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4
+      projectPath: Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4.info
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4.info
+      projectPath: Library/metadata/b0/b0c2b4a04d9e8490d8b739c6f9fcc0a4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/AndroidManifest.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/AndroidManifest.xml
+      projectPath: Temp/StagingArea/AndroidManifest.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+      projectPath: Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      projectPath: Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+      projectPath: Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+      projectPath: Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/boot.config
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/boot.config
+      projectPath: Temp/StagingArea/assets/bin/Data/boot.config
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/globalgamemanagers
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/globalgamemanagers
+      projectPath: Temp/StagingArea/assets/bin/Data/globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/globalgamemanagers.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/globalgamemanagers.assets
+      projectPath: Temp/StagingArea/assets/bin/Data/globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/level0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/level0
+      projectPath: Temp/StagingArea/assets/bin/Data/level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/level1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/level1
+      projectPath: Temp/StagingArea/assets/bin/Data/level1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/level2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/level2
+      projectPath: Temp/StagingArea/assets/bin/Data/level2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split0
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split1
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split2
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split3
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split4
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split4
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets0.assets.split4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split0
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split1
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split0
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split1
+      projectPath: Temp/StagingArea/assets/bin/Data/sharedassets2.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+      projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+      projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+      projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/StagingArea/raw/bin/Data/sharedassets0.resource
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/StagingArea/raw/bin/Data/sharedassets0.resource
+      projectPath: Temp/StagingArea/raw/bin/Data/sharedassets0.resource
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-01b42e154b0ea44e692c64faaaac45d3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-01b42e154b0ea44e692c64faaaac45d3
+      projectPath: Temp/UnityTempFile-01b42e154b0ea44e692c64faaaac45d3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0817b8c7c8b09429ba42569513e65caf
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-0817b8c7c8b09429ba42569513e65caf
+      projectPath: Temp/UnityTempFile-0817b8c7c8b09429ba42569513e65caf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0ae6bf10e750e46f4b1c411e43c9a067
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-0ae6bf10e750e46f4b1c411e43c9a067
+      projectPath: Temp/UnityTempFile-0ae6bf10e750e46f4b1c411e43c9a067
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0dd1a1468553d4798898eb309b298aee
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-0dd1a1468553d4798898eb309b298aee
+      projectPath: Temp/UnityTempFile-0dd1a1468553d4798898eb309b298aee
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0f83bfc60ea34429e9dddb0b84a71e44
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-0f83bfc60ea34429e9dddb0b84a71e44
+      projectPath: Temp/UnityTempFile-0f83bfc60ea34429e9dddb0b84a71e44
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-1bafc3ca451b74f51a1e7ea9dd09fd8a
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-1bafc3ca451b74f51a1e7ea9dd09fd8a
+      projectPath: Temp/UnityTempFile-1bafc3ca451b74f51a1e7ea9dd09fd8a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-1e764120d5a7348bbbef19f69cfdab2d
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-1e764120d5a7348bbbef19f69cfdab2d
+      projectPath: Temp/UnityTempFile-1e764120d5a7348bbbef19f69cfdab2d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2057c243ad3134cd28ea263cd7ecbb54
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2057c243ad3134cd28ea263cd7ecbb54
+      projectPath: Temp/UnityTempFile-2057c243ad3134cd28ea263cd7ecbb54
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2248c1864e2a7450886f492d1ede77fa
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2248c1864e2a7450886f492d1ede77fa
+      projectPath: Temp/UnityTempFile-2248c1864e2a7450886f492d1ede77fa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-244d09282b7004160abd1eb871b9251d
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-244d09282b7004160abd1eb871b9251d
+      projectPath: Temp/UnityTempFile-244d09282b7004160abd1eb871b9251d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-29c971f53286240d3b1adcb2f6ef2135
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-29c971f53286240d3b1adcb2f6ef2135
+      projectPath: Temp/UnityTempFile-29c971f53286240d3b1adcb2f6ef2135
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2c9f23de0e5f9423ab562aca8165189b
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2c9f23de0e5f9423ab562aca8165189b
+      projectPath: Temp/UnityTempFile-2c9f23de0e5f9423ab562aca8165189b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2d5f485f22bf041c28284ddd310f5255
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2d5f485f22bf041c28284ddd310f5255
+      projectPath: Temp/UnityTempFile-2d5f485f22bf041c28284ddd310f5255
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2ddd223a960ab44b5962644431c1e91a
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2ddd223a960ab44b5962644431c1e91a
+      projectPath: Temp/UnityTempFile-2ddd223a960ab44b5962644431c1e91a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-2f742ee0e60c54b6fbf4a61b99e26a8a
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-2f742ee0e60c54b6fbf4a61b99e26a8a
+      projectPath: Temp/UnityTempFile-2f742ee0e60c54b6fbf4a61b99e26a8a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-33b4836ab23864c9d9a92766d94a6708
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-33b4836ab23864c9d9a92766d94a6708
+      projectPath: Temp/UnityTempFile-33b4836ab23864c9d9a92766d94a6708
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-352b8d3bf9a8248dba8460a5b6a944d0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-352b8d3bf9a8248dba8460a5b6a944d0
+      projectPath: Temp/UnityTempFile-352b8d3bf9a8248dba8460a5b6a944d0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-3b37ee4c721834f1fbacb50dd5703349
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-3b37ee4c721834f1fbacb50dd5703349
+      projectPath: Temp/UnityTempFile-3b37ee4c721834f1fbacb50dd5703349
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-3bc06114ab800495fa309d4d81874ad5
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-3bc06114ab800495fa309d4d81874ad5
+      projectPath: Temp/UnityTempFile-3bc06114ab800495fa309d4d81874ad5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4053f7907d3974350a56ebe09c95555f
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-4053f7907d3974350a56ebe09c95555f
+      projectPath: Temp/UnityTempFile-4053f7907d3974350a56ebe09c95555f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4444c7caceff1427ba0fcd4878487778
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-4444c7caceff1427ba0fcd4878487778
+      projectPath: Temp/UnityTempFile-4444c7caceff1427ba0fcd4878487778
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4d0c77e2857de4c4e810b91c1070e116
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-4d0c77e2857de4c4e810b91c1070e116
+      projectPath: Temp/UnityTempFile-4d0c77e2857de4c4e810b91c1070e116
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4f12e41980add466591fee73d465d3ae
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-4f12e41980add466591fee73d465d3ae
+      projectPath: Temp/UnityTempFile-4f12e41980add466591fee73d465d3ae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-52a16e66bbc6445deb52bbb751170326
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-52a16e66bbc6445deb52bbb751170326
+      projectPath: Temp/UnityTempFile-52a16e66bbc6445deb52bbb751170326
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-53644c1ecf52e49a9b45d65e4dc1347a
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-53644c1ecf52e49a9b45d65e4dc1347a
+      projectPath: Temp/UnityTempFile-53644c1ecf52e49a9b45d65e4dc1347a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-555e91e8d99264a058296590f7dda272
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-555e91e8d99264a058296590f7dda272
+      projectPath: Temp/UnityTempFile-555e91e8d99264a058296590f7dda272
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-55ac92808d79842a9b8815ae2cf5d5a6
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-55ac92808d79842a9b8815ae2cf5d5a6
+      projectPath: Temp/UnityTempFile-55ac92808d79842a9b8815ae2cf5d5a6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-596913a84d308440899645c95013e1ee
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-596913a84d308440899645c95013e1ee
+      projectPath: Temp/UnityTempFile-596913a84d308440899645c95013e1ee
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-5c3d4539dd0624668a3271243726ed3c
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-5c3d4539dd0624668a3271243726ed3c
+      projectPath: Temp/UnityTempFile-5c3d4539dd0624668a3271243726ed3c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-5d9dd8cda4b814414b5334e07b063422
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-5d9dd8cda4b814414b5334e07b063422
+      projectPath: Temp/UnityTempFile-5d9dd8cda4b814414b5334e07b063422
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-5e40af58b2d594394a4fc68f14cf3641
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-5e40af58b2d594394a4fc68f14cf3641
+      projectPath: Temp/UnityTempFile-5e40af58b2d594394a4fc68f14cf3641
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-5ffedc6d4a62d4a869684fdd1d9666bb
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-5ffedc6d4a62d4a869684fdd1d9666bb
+      projectPath: Temp/UnityTempFile-5ffedc6d4a62d4a869684fdd1d9666bb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-62952757ab6f947eba33aaf3811ccc69
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-62952757ab6f947eba33aaf3811ccc69
+      projectPath: Temp/UnityTempFile-62952757ab6f947eba33aaf3811ccc69
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-67b9d23d1429c4b28b194ac0d48e6d02
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-67b9d23d1429c4b28b194ac0d48e6d02
+      projectPath: Temp/UnityTempFile-67b9d23d1429c4b28b194ac0d48e6d02
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-69bdebc436a0f4b7eb2ac8047411e1f9
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-69bdebc436a0f4b7eb2ac8047411e1f9
+      projectPath: Temp/UnityTempFile-69bdebc436a0f4b7eb2ac8047411e1f9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-6d6af65c1f76a4dd386d3600cd4963d7
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-6d6af65c1f76a4dd386d3600cd4963d7
+      projectPath: Temp/UnityTempFile-6d6af65c1f76a4dd386d3600cd4963d7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-735673e7aa6b24c619eafaff5778b592
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-735673e7aa6b24c619eafaff5778b592
+      projectPath: Temp/UnityTempFile-735673e7aa6b24c619eafaff5778b592
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7467d4155375a4627979f90ce1db4b7d
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-7467d4155375a4627979f90ce1db4b7d
+      projectPath: Temp/UnityTempFile-7467d4155375a4627979f90ce1db4b7d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7a83b97b281c64e3d98492ae34ddfa62
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-7a83b97b281c64e3d98492ae34ddfa62
+      projectPath: Temp/UnityTempFile-7a83b97b281c64e3d98492ae34ddfa62
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-7ce63b8fe5a454e19865c136b236cc6a
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-7ce63b8fe5a454e19865c136b236cc6a
+      projectPath: Temp/UnityTempFile-7ce63b8fe5a454e19865c136b236cc6a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-8454be75762424b198fd1098a232ee7d
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-8454be75762424b198fd1098a232ee7d
+      projectPath: Temp/UnityTempFile-8454be75762424b198fd1098a232ee7d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-873f5de2f14d54948b3f0655977f23f4
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-873f5de2f14d54948b3f0655977f23f4
+      projectPath: Temp/UnityTempFile-873f5de2f14d54948b3f0655977f23f4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-91e57de102a66468bb2a7b64a9deabd0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-91e57de102a66468bb2a7b64a9deabd0
+      projectPath: Temp/UnityTempFile-91e57de102a66468bb2a7b64a9deabd0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-96a48c3a8115b485c91807e7040192c7
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-96a48c3a8115b485c91807e7040192c7
+      projectPath: Temp/UnityTempFile-96a48c3a8115b485c91807e7040192c7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-9990c8f2d4c0c4dd1bf3b7650c2d14d6
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-9990c8f2d4c0c4dd1bf3b7650c2d14d6
+      projectPath: Temp/UnityTempFile-9990c8f2d4c0c4dd1bf3b7650c2d14d6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-9ab8051528e6f4aaeba449650db9b030
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-9ab8051528e6f4aaeba449650db9b030
+      projectPath: Temp/UnityTempFile-9ab8051528e6f4aaeba449650db9b030
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a05afa37e7f394c34b342f52353b82c3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-a05afa37e7f394c34b342f52353b82c3
+      projectPath: Temp/UnityTempFile-a05afa37e7f394c34b342f52353b82c3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a3098b7a1c93548599f4d69532177009
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-a3098b7a1c93548599f4d69532177009
+      projectPath: Temp/UnityTempFile-a3098b7a1c93548599f4d69532177009
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a40e3b9e7fc1c4676b42de049371907d
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-a40e3b9e7fc1c4676b42de049371907d
+      projectPath: Temp/UnityTempFile-a40e3b9e7fc1c4676b42de049371907d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a8412a5302c344f9296f9599f17cbdb8
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-a8412a5302c344f9296f9599f17cbdb8
+      projectPath: Temp/UnityTempFile-a8412a5302c344f9296f9599f17cbdb8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ac59b2a1c31cd4a6aadd7b73d19d3556
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-ac59b2a1c31cd4a6aadd7b73d19d3556
+      projectPath: Temp/UnityTempFile-ac59b2a1c31cd4a6aadd7b73d19d3556
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ae99c9d46ffe048be9f9e6abceca7817
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-ae99c9d46ffe048be9f9e6abceca7817
+      projectPath: Temp/UnityTempFile-ae99c9d46ffe048be9f9e6abceca7817
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-af30b9067846f48908194eaa858a2bf1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-af30b9067846f48908194eaa858a2bf1
+      projectPath: Temp/UnityTempFile-af30b9067846f48908194eaa858a2bf1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b2879fe7be8f343848184b26ad6d94df
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-b2879fe7be8f343848184b26ad6d94df
+      projectPath: Temp/UnityTempFile-b2879fe7be8f343848184b26ad6d94df
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b41f162845c1c45d3be8d035b6719b42
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-b41f162845c1c45d3be8d035b6719b42
+      projectPath: Temp/UnityTempFile-b41f162845c1c45d3be8d035b6719b42
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b73f0a7f4561c4fea9a3df1255f73a8b
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-b73f0a7f4561c4fea9a3df1255f73a8b
+      projectPath: Temp/UnityTempFile-b73f0a7f4561c4fea9a3df1255f73a8b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-b9906b194bfac4b6b908919723d4df39
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-b9906b194bfac4b6b908919723d4df39
+      projectPath: Temp/UnityTempFile-b9906b194bfac4b6b908919723d4df39
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-bcb119636c74141298d86ce3109e06e5
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-bcb119636c74141298d86ce3109e06e5
+      projectPath: Temp/UnityTempFile-bcb119636c74141298d86ce3109e06e5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-be14d2c8b5319442fb88832e3a3cd274
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-be14d2c8b5319442fb88832e3a3cd274
+      projectPath: Temp/UnityTempFile-be14d2c8b5319442fb88832e3a3cd274
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-be980695f9b3f47e099d493038496d39
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-be980695f9b3f47e099d493038496d39
+      projectPath: Temp/UnityTempFile-be980695f9b3f47e099d493038496d39
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-c17b6d2bde7474e8e9d42adc14067d88
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-c17b6d2bde7474e8e9d42adc14067d88
+      projectPath: Temp/UnityTempFile-c17b6d2bde7474e8e9d42adc14067d88
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-dd25490f9403040a18c57b42af0132cb
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-dd25490f9403040a18c57b42af0132cb
+      projectPath: Temp/UnityTempFile-dd25490f9403040a18c57b42af0132cb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-df7cd19faabfe4a0e8e08ab55f604e54
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-df7cd19faabfe4a0e8e08ab55f604e54
+      projectPath: Temp/UnityTempFile-df7cd19faabfe4a0e8e08ab55f604e54
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-e2afa5dd22b6345729f8221c84352979
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-e2afa5dd22b6345729f8221c84352979
+      projectPath: Temp/UnityTempFile-e2afa5dd22b6345729f8221c84352979
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-e6d9b256cd81a4d01a90c7934f34f13c
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-e6d9b256cd81a4d01a90c7934f34f13c
+      projectPath: Temp/UnityTempFile-e6d9b256cd81a4d01a90c7934f34f13c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-e81a85d198b334d569234be584ab6c9e
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-e81a85d198b334d569234be584ab6c9e
+      projectPath: Temp/UnityTempFile-e81a85d198b334d569234be584ab6c9e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-eba03bee3d71c4b6c9aabe270027ca90
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-eba03bee3d71c4b6c9aabe270027ca90
+      projectPath: Temp/UnityTempFile-eba03bee3d71c4b6c9aabe270027ca90
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-edf089c9ba4e7465180b62eaf07898ec
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-edf089c9ba4e7465180b62eaf07898ec
+      projectPath: Temp/UnityTempFile-edf089c9ba4e7465180b62eaf07898ec
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f08e342e249d04f459b1a0eeed9c6ad5
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-f08e342e249d04f459b1a0eeed9c6ad5
+      projectPath: Temp/UnityTempFile-f08e342e249d04f459b1a0eeed9c6ad5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f362806e9fe154562afb3c3cc9a0e187
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-f362806e9fe154562afb3c3cc9a0e187
+      projectPath: Temp/UnityTempFile-f362806e9fe154562afb3c3cc9a0e187
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f3d746000138e4819834cf65c95a16f7
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-f3d746000138e4819834cf65c95a16f7
+      projectPath: Temp/UnityTempFile-f3d746000138e4819834cf65c95a16f7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f86a82a694bb54931a99ab8f9f00f889
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/UnityTempFile-f86a82a694bb54931a99ab8f9f00f889
+      projectPath: Temp/UnityTempFile-f86a82a694bb54931a99ab8f9f00f889
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+      projectPath: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+      projectPath: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+      projectPath: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+      projectPath: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      projectPath: Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+      projectPath: Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+      projectPath: Temp/gradleOut/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+      projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+      projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/P7zoKC+PUWt8IGfDqS0vBSosFyQ=
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/P7zoKC+PUWt8IGfDqS0vBSosFyQ=
+      projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/P7zoKC+PUWt8IGfDqS0vBSosFyQ=
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+      projectPath: Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers.assets
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split0
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split1
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split2
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split3
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split4
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split4
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.assets.split4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.resource
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.resource
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets0.resource
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split0
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split1
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets1.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split0
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split1
+      projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/sharedassets2.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+      projectPath: Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+      projectPath: Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/outputs/logs/manifest-merger-release-report.txt
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/outputs/logs/manifest-merger-release-report.txt
+      projectPath: Temp/gradleOut/build/outputs/logs/manifest-merger-release-report.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/build/reports/lint-results-release-fatal.html
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/build/reports/lint-results-release-fatal.html
+      projectPath: Temp/gradleOut/build/reports/lint-results-release-fatal.html
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/AndroidManifest.xml
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/AndroidManifest.xml
+      projectPath: Temp/gradleOut/src/main/AndroidManifest.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/boot.config
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/boot.config
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/boot.config
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers.assets
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers.assets
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/level0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/level0
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/level1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/level1
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/level1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/level2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/level2
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/level2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split0
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split1
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split2
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split2
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split3
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split3
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split4
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split4
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.assets.split4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.resource
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.resource
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets0.resource
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split0
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split1
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets1.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split0
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split0
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split1
+      fullPath: /Users/AJAY-MAC/Boat RacingGame/Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split1
+      projectPath: Temp/gradleOut/src/main/assets/bin/Data/sharedassets2.assets.split1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 51472e7bc727173e199f717b3c2667846897d182
     mergeA: 
     mergeB: 
