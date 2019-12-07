@@ -10,6 +10,8 @@ public class MicInputCheck : MonoBehaviour
 
     public Button buttons;
     public Text MicText;
+    public Text SPMicText;
+
     //mic initialization
     void InitMic()
     {
@@ -20,6 +22,9 @@ public class MicInputCheck : MonoBehaviour
             Debug.Log("Device is:"+_device);
         }
         _clipRecord = Microphone.Start(_device, true, 999, 44100);
+ 
+        //playerScript.setDashActive();
+        //Debug.Log("DASH CONDITION: " + playerScript.dashActive);
     }
 
     void StopMicrophone()
@@ -61,10 +66,17 @@ public class MicInputCheck : MonoBehaviour
         // pass the value to a static var so we can access it from anywhere
         MicLoudness = LevelMax();
         //Debug.Log("MIC LOUDNESS: " + MicLoudness);
-        if (MicLoudness > 0.6)
+        if (MicLoudness > 0.8)
         {
             MicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
+            SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
             //buttons.gameObject.SetActive(false);
+            //playerScript.setDashActive();
+            //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
+        }
+        else
+        {
+            SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
         }
     }
 

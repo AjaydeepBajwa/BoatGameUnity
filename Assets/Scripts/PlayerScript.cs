@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour
     //bool gotCircle;
     //public int score;
     //public Text points;
-    bool gameOver;
+    public bool dashActive;
 
     public UIManager uiManager;
 
@@ -27,7 +27,7 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         //uiManager = GetComponent<UIManager>();
-        gameOver = false;
+        
         if (boatPosition == "left")
         {
             //boat is left
@@ -39,6 +39,11 @@ public class PlayerScript : MonoBehaviour
             direction = Vector2.right;
         }
         //direction = Vector2.zero;
+    }
+
+    public void setDashActive()
+    {
+        dashActive = true;
     }
 
     // Update is called once per frame
@@ -125,10 +130,18 @@ public class PlayerScript : MonoBehaviour
         }
         if (collision.gameObject.tag == "Obstacle")
         {
-            Destroy(gameObject);
-            gameOver = true;
-            //Application.LoadLevel(1);
-            SceneManager.LoadScene(1);
+            if (dashActive == true)
+            {
+                
+                Destroy(collision.gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+
+                //Application.LoadLevel(1);
+                SceneManager.LoadScene(1);
+            }
         }
     }
 }
