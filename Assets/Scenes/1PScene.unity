@@ -269,6 +269,7 @@ RectTransform:
   - {fileID: 1706771940}
   - {fileID: 2112988128}
   - {fileID: 1387203416}
+  - {fileID: 1863085067}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -513,6 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttons: {fileID: 0}
   MicText: {fileID: 1387203417}
+  dashActive: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1158,6 +1160,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288990561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288990563}
+  - component: {fileID: 1288990562}
+  m_Layer: 0
+  m_Name: MicInputCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1288990562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288990561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1cb0521b02d4a0395585131f0b6e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons: {fileID: 0}
+  MicText: {fileID: 1387203417}
+  dashActive: 0
+--- !u!4 &1288990563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288990561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1387203415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,8 +1319,10 @@ MonoBehaviour:
   minimumX: 0.9
   maximumX: 2.75
   boatPosition: right
+  MicTextBool: {fileID: 1863085068}
   dashActive: 0
   uiManager: {fileID: 1078383202}
+  micInputCheck: {fileID: 1288990562}
 --- !u!212 &1428414196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1511,6 +1561,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706771939}
+  m_CullTransparentMesh: 0
+--- !u!1 &1863085066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863085067}
+  - component: {fileID: 1863085069}
+  - component: {fileID: 1863085068}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1863085067
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863085066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 109384923}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 345, y: -1093.4}
+  m_SizeDelta: {x: 598.6, y: 213.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1863085068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863085066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Text
+--- !u!222 &1863085069
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863085066}
   m_CullTransparentMesh: 0
 --- !u!1 &1901725175
 GameObject:
@@ -2093,6 +2220,16 @@ PrefabInstance:
       propertyPath: uiManager
       value: 
       objectReference: {fileID: 1078383202}
+    - target: {fileID: 3339209782470833154, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
+        type: 3}
+      propertyPath: MicTextBool
+      value: 
+      objectReference: {fileID: 1863085068}
+    - target: {fileID: 3339209782470833154, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19,
+        type: 3}
+      propertyPath: micInputCheck
+      value: 
+      objectReference: {fileID: 1288990562}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efc32e4b861ce4dec9f7d2b9ce7a9e19, type: 3}
 --- !u!1001 &3989758554428155597

@@ -12,10 +12,11 @@ public class PlayerScript : MonoBehaviour
     public string boatPosition;
     //bool gotCircle;
     //public int score;
-    //public Text points;
+    public Text MicTextBool;
     public bool dashActive;
 
     public UIManager uiManager;
+    public MicInputCheck micInputCheck;
 
 
     private void Awake()
@@ -46,9 +47,16 @@ public class PlayerScript : MonoBehaviour
         dashActive = true;
     }
 
+    public void setDashInactive()
+    {
+        dashActive = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        dashActive = micInputCheck.dashActive;
+        MicTextBool.gameObject.GetComponent<Text>().text = "" +dashActive;
         if (boatPosition == "left")
         {
             if (Input.mousePosition.x <= Screen.width / 2)
@@ -135,7 +143,7 @@ public class PlayerScript : MonoBehaviour
                 
                 Destroy(collision.gameObject);
             }
-            else
+            else if (dashActive == false)
             {
                 Destroy(gameObject);
 

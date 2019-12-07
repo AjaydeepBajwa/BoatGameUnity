@@ -12,6 +12,11 @@ public class MicInputCheck : MonoBehaviour
     public Text MicText;
     //public Text SPMicText;
     //public Text EndGameMicText;
+    //public PlayerScript playerScript;
+    public bool dashActive;
+    public float delayTimer = 3f;
+    float timer;
+    bool dashTimer;
 
     //mic initialization
     void InitMic()
@@ -59,7 +64,11 @@ public class MicInputCheck : MonoBehaviour
         return levelMax;
     }
 
-
+    private void Start()
+    {
+        timer = delayTimer;
+        //playerScript = GetComponent<PlayerScript>();
+    }
 
     void Update()
     {
@@ -75,11 +84,35 @@ public class MicInputCheck : MonoBehaviour
             //buttons.gameObject.SetActive(false);
             //playerScript.setDashActive();
             //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
+            if (dashActive == false)
+            {
+                dashActive = true;
+            }
+            timer = delayTimer;
+            dashTimer = true;
         }
-        else
+        if (dashTimer == true)
         {
-            //SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                dashActive = false;
+                timer = delayTimer;
+                dashTimer = false;
+            }
         }
+        
+        
+        //else if (MicLoudness < 0.8)
+        //{
+        //    MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
+        //    //SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
+        //    //playerScript.setDashInactive();
+        //    if (dashActive == true)
+        //    {
+        //        dashActive = false;
+        //    }
+        //}
     }
 
     bool _isInitialized;
