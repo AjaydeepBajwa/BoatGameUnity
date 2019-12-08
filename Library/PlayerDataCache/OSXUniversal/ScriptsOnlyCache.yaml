@@ -89,6 +89,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 29504}
     - Class: 114
       Script: {instanceID: 53888}
+    - Class: 114
+      Script: {instanceID: 68308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -138,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11610}
     - Class: 114
       Script: {instanceID: 45020}
+    - Class: 114
+      Script: {instanceID: 68308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -622,7 +626,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: b91464546daf1892f24cdb8c306b3bbb
+      Hash: 18bdd49cdbc7c32c5e7f1fdcd3a12cca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -664,7 +668,7 @@ ScriptsOnlyBuild:
     className: AudioManager
   - hash:
       serializedVersion: 2
-      Hash: a329d7edeaf561f54e2b1df0c1993085
+      Hash: 3c1149a87d022c43ce599e17c59624dc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MicInputCheck

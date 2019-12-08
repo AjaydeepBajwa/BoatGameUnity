@@ -14,7 +14,7 @@ public class MicInputCheck : MonoBehaviour
     //public Text EndGameMicText;
     //public PlayerScript playerScript;
     public bool dashActive;
-    public float delayTimer = 1f;
+    public float delayTimer = 2f;
     float timer;
     bool dashTimer;
     public int dashRemaining;

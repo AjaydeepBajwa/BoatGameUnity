@@ -10,7 +10,7 @@
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
       <meta-data android:name="android.notch_support" android:value="true" />
     </activity>
-    <meta-data android:name="unity.build-id" android:value="d8e2bf82-03f6-4fd0-aa01-744e598bb5b4" />
+    <meta-data android:name="unity.build-id" android:value="21cc29a0-11e9-4e6b-a95a-53aa1b5c7eff" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
