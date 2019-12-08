@@ -20,8 +20,11 @@ public class PlayerScript : MonoBehaviour
     //public GameObject leftBoat;
     //public GameObject rightBoat;
     public GameObject dashAnimation;
+    public GameObject destroyAnimation;
     bool animInstanciated;
-
+    public float delayTimer = 1f;
+    float timer;
+    public bool endGamee;
 
     private void Awake()
     {
@@ -32,8 +35,11 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         //uiManager = GetComponent<UIManager>();
+        timer = delayTimer;
         animInstanciated = false;
         dashAnimation.SetActive(false);
+        destroyAnimation.SetActive(false);
+        //endGamee = false;
 
         if (boatPosition == "left")
         {
@@ -148,7 +154,22 @@ public class PlayerScript : MonoBehaviour
             currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
             transform.position = currentPosition;
         }
-       
+
+        if (endGamee == true)
+        {
+            
+            //timer = delayTimer;
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                //circleMissedAnim.SetActive(false);
+                //circleAnimStarted = false;
+                SceneManager.LoadScene(1);
+            }
+
+        }
+        //MicTextBool.GetComponent<Text>().text = "" +timer;
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -167,15 +188,21 @@ public class PlayerScript : MonoBehaviour
         }
         if (collision.gameObject.tag == "Obstacle")
         {
+            destroyAnimation.SetActive(false);
             if (dashActive == true)
             {
-                
                 Destroy(collision.gameObject);
+                destroyAnimation.transform.position = gameObject.transform.position;
+                destroyAnimation.SetActive(true);
             }
             else if (dashActive == false)
             {
-               // dashAnimation.GetComponent<Animator>().enabled = false;
+                endGamee = true; 
+                // dashAnimation.GetComponent<Animator>().enabled = false;
                 Destroy(gameObject);
+                destroyAnimation.transform.position = gameObject.transform.position;
+                destroyAnimation.SetActive(true);
+                
                 //Destroy(dashAnimation.GetComponent<Animator>().;
                 //Application.LoadLevel(1);
                 SceneManager.LoadScene(1);
