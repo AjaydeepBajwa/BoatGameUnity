@@ -17,6 +17,10 @@ public class PlayerScript : MonoBehaviour
 
     public UIManager uiManager;
     public MicInputCheck micInputCheck;
+    //public GameObject leftBoat;
+    //public GameObject rightBoat;
+    public GameObject dashAnimation;
+    bool animInstanciated;
 
 
     private void Awake()
@@ -28,7 +32,9 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         //uiManager = GetComponent<UIManager>();
-        
+        animInstanciated = false;
+        dashAnimation.SetActive(false);
+
         if (boatPosition == "left")
         {
             //boat is left
@@ -55,8 +61,29 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("DASH ANIMATION INSTRANCE ID:" +dashAnimation.GetInstanceID());
         dashActive = micInputCheck.dashActive;
-        MicTextBool.gameObject.GetComponent<Text>().text = "" +dashActive;
+        Vector2 dashAnimPosition = new Vector2(transform.position.x, transform.position.y - 1.73f);
+        dashAnimation.transform.position = dashAnimPosition;
+        if (dashActive == true)
+        {
+            if (animInstanciated == false)
+            {
+                dashAnimation.SetActive(true);
+                //Instantiate(dashAnimation, transform.position, transform.rotation);
+                animInstanciated = true;
+            }
+
+        }
+        if (dashActive == false)
+        {
+            if (animInstanciated == true)
+            {
+                dashAnimation.SetActive(false);
+                animInstanciated = false;
+            }
+        }
+        MicTextBool.gameObject.GetComponent<Text>().text = "" +micInputCheck.dashRemaining;
         if (boatPosition == "left")
         {
             if (Input.mousePosition.x <= Screen.width / 2)
@@ -135,6 +162,8 @@ public class PlayerScript : MonoBehaviour
             //points.text = "" + score;
             //gotCircle = false;
             uiManager.addScore();
+            //Destroy(dashAnimation);
+            //dashAnimation.GetComponent<Animator>().enabled = false;
         }
         if (collision.gameObject.tag == "Obstacle")
         {
@@ -145,8 +174,9 @@ public class PlayerScript : MonoBehaviour
             }
             else if (dashActive == false)
             {
+               // dashAnimation.GetComponent<Animator>().enabled = false;
                 Destroy(gameObject);
-
+                //Destroy(dashAnimation.GetComponent<Animator>().;
                 //Application.LoadLevel(1);
                 SceneManager.LoadScene(1);
             }

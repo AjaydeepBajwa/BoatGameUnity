@@ -14,9 +14,10 @@ public class MicInputCheck : MonoBehaviour
     //public Text EndGameMicText;
     //public PlayerScript playerScript;
     public bool dashActive;
-    public float delayTimer = 3f;
+    public float delayTimer = 1f;
     float timer;
     bool dashTimer;
+    public int dashRemaining;
 
     //mic initialization
     void InitMic()
@@ -67,6 +68,7 @@ public class MicInputCheck : MonoBehaviour
     private void Start()
     {
         timer = delayTimer;
+        dashRemaining = 15;
         //playerScript = GetComponent<PlayerScript>();
     }
 
@@ -93,12 +95,13 @@ public class MicInputCheck : MonoBehaviour
         }
         if (dashTimer == true)
         {
-            timer -= Time.deltaTime;
+            timer -= Time.deltaTime*4;
             if (timer <= 0)
             {
                 dashActive = false;
                 timer = delayTimer;
                 dashTimer = false;
+                dashRemaining = dashRemaining - 1;
             }
         }
         

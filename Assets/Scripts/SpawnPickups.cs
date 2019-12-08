@@ -6,6 +6,8 @@ public class SpawnPickups : MonoBehaviour
 {
     public GameObject circle;
     public GameObject obstacle;
+    public GameObject circle2;
+    public GameObject obstacle2;
     public float maxPos = 2.75f;
     public float delayTimer = 1f;
     float timer;
@@ -35,12 +37,28 @@ public class SpawnPickups : MonoBehaviour
             int randomObject = Random.Range(0, 2);
             if (randomObject == 0)
             {
-                Instantiate(circle, objectPos, transform.rotation);
+                if (randomPos <= -1)
+                {
+                    Instantiate(circle, objectPos, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(circle2, objectPos, transform.rotation);
+                }
+                
                 //Instantiate(circle, objectPosRight, transform.rotation);
             }
             else
             {
-                Instantiate(obstacle, objectPos, transform.rotation);
+                if(randomPos <= -1)
+                {
+                    Instantiate(obstacle, objectPos, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(obstacle2, objectPos, transform.rotation);
+                }
+                
                 //Instantiate(obstacle, objectPosRight, transform.rotation);
             }
             
