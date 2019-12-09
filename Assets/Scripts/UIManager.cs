@@ -99,6 +99,7 @@ public class UIManager : MonoBehaviour
     }
     public void Quit()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
 }

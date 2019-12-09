@@ -14,7 +14,7 @@ public class MicInputCheck : MonoBehaviour
     //public Text EndGameMicText;
     //public PlayerScript playerScript;
     public bool dashActive;
-    public float delayTimer = 2f;
+    public float delayTimer = 4f;
     float timer;
     bool dashTimer;
     public int dashRemaining;
@@ -88,8 +88,12 @@ public class MicInputCheck : MonoBehaviour
             //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
             if (dashActive == false)
             {
-                dashActive = true;
-                dashRemaining = dashRemaining - 1;
+                if (dashRemaining >= 1)
+                {
+                    dashActive = true;
+                    dashRemaining = dashRemaining - 1;
+                }
+                
             }
             timer = delayTimer;
             dashTimer = true;

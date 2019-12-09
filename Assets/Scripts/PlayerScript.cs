@@ -194,10 +194,13 @@ public class PlayerScript : MonoBehaviour
                 Destroy(collision.gameObject);
                 destroyAnimation.transform.position = gameObject.transform.position;
                 destroyAnimation.SetActive(true);
+                uiManager.addScore();
+                uiManager.addScore();
             }
             else if (dashActive == false)
             {
-                endGamee = true; 
+                Invoke("EndTheGame", 2);
+                //endGamee = true; 
                 // dashAnimation.GetComponent<Animator>().enabled = false;
                 Destroy(gameObject);
                 destroyAnimation.transform.position = gameObject.transform.position;
@@ -206,7 +209,12 @@ public class PlayerScript : MonoBehaviour
                 //Destroy(dashAnimation.GetComponent<Animator>().;
                 //Application.LoadLevel(1);
                 SceneManager.LoadScene(1);
+
             }
         }
+    }
+    public void EndTheGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }
