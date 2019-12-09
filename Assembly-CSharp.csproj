@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\MicInputCheck.cs" />
     <Compile Include="Assets\Scripts\MoveCircle.cs" />
+    <Compile Include="Assets\Scripts\MultiMenuScene.cs" />
     <Compile Include="Assets\Scripts\ObjectRemover.cs" />
     <Compile Include="Assets\Scripts\PlayerNameInput.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />

@@ -13,132 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-09T16:44:12.190-05:00
+  lastUpdatedAtString: 2019-12-09T16:50:12.024-05:00
   initializedAtString: 2019-12-09T16:27:28.967-05:00
   entries:
-  - path: .DS_Store
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.DS_Store
-    projectPath: .DS_Store
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonChat-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonChat-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonChat-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonRealtime-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonRealtime-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonRealtime-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Demos-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Demos-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Demos-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Editor-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Editor-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Editor-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.Culling.Editor-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.Culling.Editor-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.Culling.Editor-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking.Utilities-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonUnityNetworking-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PhotonWebSocket-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PhotonWebSocket-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PhotonWebSocket-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoHubEditor-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoHubEditor-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoHubEditor-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoSlotcarEditor-Debug.json
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoSlotcarEditor-Debug.json
-    projectPath: .vs/boatracinggame-unity/xs/project-cache/PunDemos.DemoSlotcarEditor-Debug.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: .vs/boatracinggame-unity/xs/sqlite3/db.lock
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/sqlite3/db.lock
-    projectPath: .vs/boatracinggame-unity/xs/sqlite3/db.lock
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: .vs/boatracinggame-unity/xs/sqlite3/storage.ide
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/sqlite3/storage.ide
     projectPath: .vs/boatracinggame-unity/xs/sqlite3/storage.ide
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .vs/boatracinggame-unity/xs/sqlite3/storage.ide-shm
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/sqlite3/storage.ide-shm
     projectPath: .vs/boatracinggame-unity/xs/sqlite3/storage.ide-shm
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: .vs/boatracinggame-unity/xs/sqlite3/storage.ide-wal
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/sqlite3/storage.ide-wal
     projectPath: .vs/boatracinggame-unity/xs/sqlite3/storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: .vs/boatracinggame-unity/xs/UserPrefs.xml
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/.vs/boatracinggame-unity/xs/UserPrefs.xml
     projectPath: .vs/boatracinggame-unity/xs/UserPrefs.xml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -146,32 +50,8 @@ MonoBehaviour:
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Scenes/MultiPlayerMenuScene.unity
     projectPath: Assets/Scenes/MultiPlayerMenuScene.unity
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scenes/MultiPlayerMenuScene.unity.meta
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Scenes/MultiPlayerMenuScene.unity.meta
-    projectPath: Assets/Scenes/MultiPlayerMenuScene.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/PlayerNameInput.cs
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Scripts/PlayerNameInput.cs
-    projectPath: Assets/Scripts/PlayerNameInput.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/PlayerNameInput.cs.meta
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Scripts/PlayerNameInput.cs.meta
-    projectPath: Assets/Scripts/PlayerNameInput.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: boatracinggame-unity.sln
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/boatracinggame-unity.sln
-    projectPath: boatracinggame-unity.sln
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/assetDatabase3
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/assetDatabase3
     projectPath: Library/assetDatabase3
@@ -214,36 +94,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338
-    projectPath: Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338
+  - path: Library/metadata/5a/5a237ebebcbdc4901958566812c4577d
+    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/5a/5a237ebebcbdc4901958566812c4577d
+    projectPath: Library/metadata/5a/5a237ebebcbdc4901958566812c4577d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338.info
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338.info
-    projectPath: Library/metadata/b9/b9d30b7397b2649d999dd42ede7c0338.info
+  - path: Library/metadata/5a/5a237ebebcbdc4901958566812c4577d.info
+    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/5a/5a237ebebcbdc4901958566812c4577d.info
+    projectPath: Library/metadata/5a/5a237ebebcbdc4901958566812c4577d.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d
-    projectPath: Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d.info
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d.info
-    projectPath: Library/metadata/d8/d8374cdd655214b69afb94a52b75e55d.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/SceneVisibilityState.asset
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/SceneVisibilityState.asset
-    projectPath: Library/SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -268,99 +130,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/PhotonChat.csprojAssemblyReference.cache
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/obj/Debug/PhotonChat.csprojAssemblyReference.cache
-    projectPath: obj/Debug/PhotonChat.csprojAssemblyReference.cache
+  - path: Temp/UnityTempFile-74a0a87d2ebd34eaaa87180173986e1f
+    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/UnityTempFile-74a0a87d2ebd34eaaa87180173986e1f
+    projectPath: Temp/UnityTempFile-74a0a87d2ebd34eaaa87180173986e1f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: PhotonChat.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonChat.csproj
-    projectPath: PhotonChat.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonRealtime.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonRealtime.csproj
-    projectPath: PhotonRealtime.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.csproj
-    projectPath: PhotonUnityNetworking.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.Demos.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.Demos.csproj
-    projectPath: PhotonUnityNetworking.Demos.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.Editor.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.Editor.csproj
-    projectPath: PhotonUnityNetworking.Editor.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.Utilities.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.Utilities.csproj
-    projectPath: PhotonUnityNetworking.Utilities.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.Utilities.Culling.Editor.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.Utilities.Culling.Editor.csproj
-    projectPath: PhotonUnityNetworking.Utilities.Culling.Editor.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj
-    projectPath: PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PhotonWebSocket.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PhotonWebSocket.csproj
-    projectPath: PhotonWebSocket.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PunDemos.DemoHubEditor.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PunDemos.DemoHubEditor.csproj
-    projectPath: PunDemos.DemoHubEditor.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: PunDemos.DemoSlotcarEditor.csproj
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/PunDemos.DemoSlotcarEditor.csproj
-    projectPath: PunDemos.DemoSlotcarEditor.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-13b2786e5c291469abd158063cd43f22
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/UnityTempFile-13b2786e5c291469abd158063cd43f22
-    projectPath: Temp/UnityTempFile-13b2786e5c291469abd158063cd43f22
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-8e7433558bdfc4ef094a63b9ffb41ec5
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/UnityTempFile-8e7433558bdfc4ef094a63b9ffb41ec5
-    projectPath: Temp/UnityTempFile-8e7433558bdfc4ef094a63b9ffb41ec5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp/UnityTempFile-ee4989d62e0a24a969b824d3df92b759
-    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/UnityTempFile-ee4989d62e0a24a969b824d3df92b759
-    projectPath: Temp/UnityTempFile-ee4989d62e0a24a969b824d3df92b759
+  - path: Temp/UnityTempFile-9dfbf662eace04f9e8fb28cede8e1dfb
+    fullPath: /Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/UnityTempFile-9dfbf662eace04f9e8fb28cede8e1dfb
+    projectPath: Temp/UnityTempFile-9dfbf662eace04f9e8fb28cede8e1dfb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
