@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{BD9E913F-3818-B05E-E82A-87BAA7074F27}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiMenuScene.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MultiMenuScene.cs" Line="29" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="boatracinggame-unity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="MultiMenuScene.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ad30bd24-7070-4543-971d-4acd02b177c7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
