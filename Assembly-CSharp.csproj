@@ -64,11 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\RightBoatMoveScript.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\LeftBoatMoveScript.cs" />
     <Compile Include="Assets\Scripts\MicInputCheck.cs" />
     <Compile Include="Assets\Scripts\MoveCircle.cs" />
     <Compile Include="Assets\Scripts\MultiMenuScene.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\ObjectRemover.cs" />
     <Compile Include="Assets\Scripts\PlayerNameInput.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />

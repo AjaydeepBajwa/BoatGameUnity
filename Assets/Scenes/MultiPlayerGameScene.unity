@@ -235,6 +235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: background
       objectReference: {fileID: 0}
+    - target: {fileID: 3989758553970643010, guid: f5e7f3d9372c34a01927c1fbe92d72f6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3989758553970643036, guid: f5e7f3d9372c34a01927c1fbe92d72f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -273,7 +278,7 @@ PrefabInstance:
     - target: {fileID: 3989758553970643036, guid: f5e7f3d9372c34a01927c1fbe92d72f6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3989758553970643036, guid: f5e7f3d9372c34a01927c1fbe92d72f6,
         type: 3}
@@ -311,6 +316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589041724}
+  - component: {fileID: 1589041723}
   m_Layer: 0
   m_Name: boatSpawner
   m_TagString: Untagged
@@ -318,6 +324,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1589041723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589041722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b52089a7cd714740bff7d042c20e905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 4663587318094672300, guid: 9c554f179a0aa4b26b9891aed09500f6,
+    type: 3}
 --- !u!4 &1589041724
 Transform:
   m_ObjectHideFlags: 0
@@ -326,7 +346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589041722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.75, y: -4.87, z: 0}
+  m_LocalPosition: {x: -0.83, y: -4.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
