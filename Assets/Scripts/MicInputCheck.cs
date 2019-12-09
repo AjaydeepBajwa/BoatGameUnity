@@ -26,10 +26,10 @@ public class MicInputCheck : MonoBehaviour
         {
             _device = Microphone.devices[0];
 
-            Debug.Log("Device is:"+_device);
+            Debug.Log("Device is:" + _device);
         }
         _clipRecord = Microphone.Start(_device, true, 999, 44100);
- 
+
         //playerScript.setDashActive();
         //Debug.Log("DASH CONDITION: " + playerScript.dashActive);
     }
@@ -81,7 +81,7 @@ public class MicInputCheck : MonoBehaviour
         if (MicLoudness > 0.8)
         {
             //EndGameMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
-            MicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
+            MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
             //SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
             //buttons.gameObject.SetActive(false);
             //playerScript.setDashActive();
@@ -93,7 +93,7 @@ public class MicInputCheck : MonoBehaviour
                     dashActive = true;
                     dashRemaining = dashRemaining - 1;
                 }
-                
+
             }
             timer = delayTimer;
             dashTimer = true;
@@ -109,8 +109,8 @@ public class MicInputCheck : MonoBehaviour
                 //dashRemaining = dashRemaining - 1;
             }
         }
-        
-        
+
+
         //else if (MicLoudness < 0.8)
         //{
         //    MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;

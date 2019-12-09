@@ -22,8 +22,8 @@ public class UIManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
-        
+    {
+
     }
 
     void OnDisable()
@@ -40,12 +40,19 @@ public class UIManager : MonoBehaviour
     public void PlaySingle()
     {
         Debug.Log("Loaded 1P Scene");
-        Application.LoadLevel("1PScene");
+        // Application.LoadLevel("1PScene");
+        SceneManager.LoadScene(0);
+    }
+
+    public void GotoMultiplayerMenu()
+    {
+        //Application.LoadLevel("1PScene");
+        SceneManager.LoadScene(3);
     }
 
     public void Pause()
     {
-   
+
         if (Time.timeScale == 1)
         {
             Time.timeScale = 0;
@@ -81,7 +88,7 @@ public class UIManager : MonoBehaviour
             audioMan.bgMusic.Play();
             btnTexts[1].gameObject.GetComponent<Text>().text = "No Music";
         }
-        
+
     }
     public void soundOnOff()
     {

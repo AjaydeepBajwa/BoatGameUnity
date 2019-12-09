@@ -28,7 +28,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Awake()
     {
-        
+
     }
 
     // Start is called before the first frame update
@@ -89,7 +89,8 @@ public class PlayerScript : MonoBehaviour
                 animInstanciated = false;
             }
         }
-        MicTextBool.gameObject.GetComponent<Text>().text = "" +micInputCheck.dashRemaining;
+        MicTextBool.gameObject.GetComponent<Text>().text = "" + micInputCheck.dashRemaining;
+
         if (boatPosition == "left")
         {
             if (Input.mousePosition.x <= Screen.width / 2)
@@ -157,7 +158,7 @@ public class PlayerScript : MonoBehaviour
 
         if (endGamee == true)
         {
-            
+
             //timer = delayTimer;
             timer -= Time.deltaTime;
             if (timer <= 0)
@@ -205,7 +206,7 @@ public class PlayerScript : MonoBehaviour
                 Destroy(gameObject);
                 destroyAnimation.transform.position = gameObject.transform.position;
                 destroyAnimation.SetActive(true);
-                
+
                 //Destroy(dashAnimation.GetComponent<Animator>().;
                 //Application.LoadLevel(1);
                 SceneManager.LoadScene(1);
