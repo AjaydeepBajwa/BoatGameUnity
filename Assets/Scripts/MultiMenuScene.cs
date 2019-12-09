@@ -93,7 +93,18 @@ public class MultiMenuScene : MonoBehaviourPunCallbacks
         }
     }
 
-    
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
+        {
+
+            PhotonNetwork.CurrentRoom.IsOpen = false;
+            waitingStatusText.text = "Opponent found";
+            Debug.Log("Match is ready to begin");
+
+            PhotonNetwork.LoadLevel(4);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
