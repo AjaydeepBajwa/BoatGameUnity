@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine.UI;
 using System;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class LeftBoatMoveScript : MonoBehaviourPun
 {
     public int speed;
     private Vector2 direction;
     public float minimumX, maximumX;
-    public Text scoreText1;
+    //public Text scoreText1;
     //public string boatPosition;
     int score1 = 0;
     //int score2 = 0;
@@ -74,9 +76,16 @@ public class LeftBoatMoveScript : MonoBehaviourPun
             if (PhotonNetwork.IsMasterClient)
             {
                 score1++;
-                scoreText1.text = "" + score1;
+                //scoreText1.text = "" + score1;
+
+                //int KillScore = (int)PhotonNetwork.player.customProperties["Kills"];
+                //killScore++;
+                Hashtable hash = new Hashtable();
+                hash.Add("score", +score1);
+                PhotonNetwork.SetPlayerCustomProperties(hash);
+
             }
-            
+
             //score++;
             //points.text = ""+score;
             //Debug.Log(score + " points");

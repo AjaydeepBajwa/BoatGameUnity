@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using System;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class RightBoatMoveScript : MonoBehaviourPun
 {
@@ -11,7 +12,7 @@ public class RightBoatMoveScript : MonoBehaviourPun
     private Vector2 direction;
     public float minimumX, maximumX;
     int score2;
-    public Text scoreText2;
+    //public Text scoreText2;
     //public string boatPosition;
     //public UIManagerMulti uIManagerMulti;
     // Start is called before the first frame update
@@ -73,7 +74,11 @@ public class RightBoatMoveScript : MonoBehaviourPun
            if (!PhotonNetwork.IsMasterClient)
             {
                 score2++;
-                scoreText2.text = "" + score2;
+                //scoreText2.text = "" + score2;
+
+                Hashtable hash = new Hashtable();
+                hash.Add("score", +score2);
+                PhotonNetwork.SetPlayerCustomProperties(hash);
             }
           
             //score++;
