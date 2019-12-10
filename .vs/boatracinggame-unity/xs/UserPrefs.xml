@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{BD9E913F-3818-B05E-E82A-87BAA7074F27}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiPlayer Scripts/PlayerSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UIManagerMulti.cs">
     <Files>
-      <File FileName="Assets/RightBoatMoveScript.cs" Line="41" Column="35" />
-      <File FileName="Assets/Scripts/LeftBoatMoveScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerNameInput.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/PlayerSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/ObjectRemoverScript.cs" Line="67" Column="26" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/RightBoatMoveScript.cs" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" />
+      <File FileName="Assets/NameTag.cs" />
+      <File FileName="Assets/Scripts/MultiMenuScene.cs" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/PlayerSpawner.cs" />
+      <File FileName="Assets/SpawnObjectsOnRight.cs" />
+      <File FileName="Assets/UIManagerMulti.cs" Line="6" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="boatracinggame-unity" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Photon" expanded="True">
-                <Node name="PhotonUnityNetworking" expanded="True">
-                  <Node name="Code" expanded="True" />
-                </Node>
-              </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="MultiPlayer Scripts" expanded="True">
-                  <Node name="PlayerSpawner.cs" selected="True" />
-                </Node>
+                <Node name="MultiPlayer Scripts" expanded="True" />
               </Node>
+              <Node name="UIManagerMulti.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -29,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ad30bd24-7070-4543-971d-4acd02b177c7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e53d741c-dae0-4180-9d81-5c02d7e7cfdd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

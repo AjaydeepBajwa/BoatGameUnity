@@ -63,21 +63,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NameTag.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\RightBoatMoveScript.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
-    <Compile Include="Assets\Scripts\LeftBoatMoveScript.cs" />
     <Compile Include="Assets\Scripts\MicInputCheck.cs" />
     <Compile Include="Assets\Scripts\MoveCircle.cs" />
     <Compile Include="Assets\Scripts\MultiMenuScene.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\LeftBoatMoveScript.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\ObjectRemoverScript.cs" />
     <Compile Include="Assets\Scripts\MultiPlayer Scripts\PlayerSpawner.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\RightBoatMoveScript.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\SpawnObjectsOnLeft.cs" />
     <Compile Include="Assets\Scripts\ObjectRemover.cs" />
     <Compile Include="Assets\Scripts\PlayerNameInput.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\SpawnObjects.cs" />
     <Compile Include="Assets\Scripts\SpawnPickups.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\SpawnObjectsOnRight.cs" />
+    <Compile Include="Assets\UIManagerMulti.cs" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
