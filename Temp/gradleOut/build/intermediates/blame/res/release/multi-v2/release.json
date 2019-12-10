@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/gradleOut/build/intermediates/res/merged/release/values_values.arsc.flat",
+            "outputFile": "/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Temp/gradleOut/build/intermediates/res/merged/release/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/gradleOut/src/main/res/values/styles.xml",
+                    "source": "/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Temp/gradleOut/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/gradleOut/src/main/res/values/strings.xml",
+                    "source": "/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Temp/gradleOut/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -42,10 +42,10 @@
             ]
         },
         {
-            "outputFile": "/Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/gradleOut/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
+            "outputFile": "/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Temp/gradleOut/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/AJAY-MAC/Desktop/boatracinggame-unity/Temp/gradleOut/src/main/res/values-v21/styles.xml",
+                    "source": "/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Temp/gradleOut/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

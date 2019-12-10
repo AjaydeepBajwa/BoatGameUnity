@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BD9E913F-3818-B05E-E82A-87BAA7074F27}</ProjectGuid>
+    <ProjectGuid>{3C56D088-7689-B482-91B9-CB29C97A54D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,8 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MicInputCheckMultiPlayer.cs" />
     <Compile Include="Assets\NameTag.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\ScoreUpdater.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\MicInputCheck.cs" />
@@ -89,37 +91,37 @@
     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -293,10 +295,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.14f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -661,47 +663,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{D4F4F615-EFFE-5826-9854-85BDB511B715}</Project>
+      <Project>{11E96701-E019-B4C3-3D02-9DE9AF42F877}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{CFFE4D9E-5DA1-4513-D123-D1EF4E5098A3}</Project>
+      <Project>{774DE317-F0E9-8AD3-FF98-9BDFDE957D8F}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{DBEEEFAE-1CA6-9DE2-4083-F5C03FE3DD5D}</Project>
+      <Project>{F9091B55-EA0E-CF0B-8B76-B480BB7F129E}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{68881CFA-0D94-611E-234D-23629697E546}</Project>
+      <Project>{527141ED-9279-EEDD-8E9E-E4648F84CB4F}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{3ACA8462-6CB6-BB91-86A5-AA03ED9A809D}</Project>
+      <Project>{65C92112-2F11-ADD2-91C1-330DD043D7A0}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{24020BA5-CFF9-2118-231D-88AE6496C754}</Project>
+      <Project>{62B7D3CD-6933-AD21-D543-9ABDCEBE1DBC}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{09DED396-A09B-4194-D649-91F22333808E}</Project>
+      <Project>{CF415487-7592-B8D1-0B29-E3AE06230D10}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{A6CA6175-5A30-D929-A877-8854934D9D05}</Project>
+      <Project>{48A53878-39A3-B19B-3FEC-AE6D7B0AA0A6}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{DFCF5ADA-6C05-0ED2-5B2D-49AE9CE39F59}</Project>
+      <Project>{2B1EE640-C5B9-6520-C062-00984E6756D8}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{30FC0C51-C33C-50D9-7A19-CD65DDF767B7}</Project>
+      <Project>{043E7524-A40C-75FD-212D-6CD808B4BDD4}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{CD0324B4-9CE3-6C72-8589-7454650376F8}</Project>
+      <Project>{46AB38D7-93A7-7731-5C2D-E1EB14DF7514}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

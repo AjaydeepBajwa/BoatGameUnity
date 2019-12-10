@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A6CA6175-5A30-D929-A877-8854934D9D05}</ProjectGuid>
+    <ProjectGuid>{48A53878-39A3-B19B-3FEC-AE6D7B0AA0A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking</AssemblyName>
@@ -78,13 +78,13 @@
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonTransformView.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonTransformViewClassic.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -279,25 +279,25 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/AJAY-MAC/Desktop/boatracinggame-unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/AJAY-MAC/Documents/BOAT GAME UNITY/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.14f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -653,7 +653,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{09DED396-A09B-4194-D649-91F22333808E}</Project>
+      <Project>{CF415487-7592-B8D1-0B29-E3AE06230D10}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
   </ItemGroup>

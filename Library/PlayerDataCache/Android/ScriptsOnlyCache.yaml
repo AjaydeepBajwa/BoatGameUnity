@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - GameOver
     - LeftBoatMoveScript
     - MicInputCheck
+    - MicInputCheckMultiPlayer
     - MoveCircle
     - MultiMenuScene
     - NameTag
@@ -14,17 +15,22 @@ ScriptsOnlyBuild:
     - PlayerScript
     - PlayerSpawner
     - RightBoatMoveScript
+    - ScoreUpdater
     - SpawnObjectsOnLeft
     - SpawnObjectsOnRight
     - SpawnPickups
     - UIManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
+    - GitHub.Unity.GitUserCache
     - GitHub.Unity.RepositoryInfoCache
+    - GitHub.Unity.Window
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -320,11 +326,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -360,6 +372,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11986}
     - Class: 114
       Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 29486}
+    - Class: 114
+      Script: {instanceID: 42408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -526,7 +542,7 @@ ScriptsOnlyBuild:
     className: PhotonStatsGui
   - hash:
       serializedVersion: 2
-      Hash: b8cd250361d5b6fd5f043af239c645cb
+      Hash: 71e7132e788b1d744aa093683459bd8b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LeftBoatMoveScript
@@ -1006,7 +1022,7 @@ ScriptsOnlyBuild:
     className: ObjectRemover
   - hash:
       serializedVersion: 2
-      Hash: 01c32769e11af12b017a0f36221b8e40
+      Hash: 71e7132e788b1d744aa093683459bd8b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RightBoatMoveScript
@@ -1288,7 +1304,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 712c6c479cf125d50c6bd20ab2575422
+      Hash: 586ee1a7ee2b4397be19e5876b481bb1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerSpawner
@@ -1748,6 +1764,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7cb869dcc3718c34ee525536b1d93269
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 5be5a0eaccb6789172efb8b68b08cfec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MicInputCheckMultiPlayer
   platform: 13
   scenePathNames:
   - Assets/Scenes/1PScene.unity
