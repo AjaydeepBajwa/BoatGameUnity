@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Photon.Realtime;
+using UnityEngine.UI;
+using System;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class MicInputCheckMultiPlayer : MonoBehaviour
 {
@@ -101,6 +105,11 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
                     {
                         dashActive1 = true;
                         dashRemaining1 = dashRemaining1 - 1;
+
+                        Hashtable hash = new Hashtable();
+                        hash.Add("p1DashRem", dashRemaining1);
+                        PhotonNetwork.SetPlayerCustomProperties(hash);
+
                     }
 
                 }
@@ -115,6 +124,10 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
                     {
                         dashActive2 = true;
                         dashRemaining2 = dashRemaining2 - 1;
+
+                        Hashtable hash = new Hashtable();
+                        hash.Add("p2DashRem", dashRemaining2);
+                        PhotonNetwork.SetPlayerCustomProperties(hash);
                     }
 
                 }

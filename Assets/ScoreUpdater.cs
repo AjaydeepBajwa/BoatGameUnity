@@ -11,6 +11,8 @@ public class ScoreUpdater : MonoBehaviour
     //int score2;
     public Text score1Text;
     public Text score2Text;
+    public Text dashRem1Text;
+    public Text dashRem2Text;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,9 @@ public class ScoreUpdater : MonoBehaviour
 
         score1Text.text = "" + p1.CustomProperties["score"];
         score2Text.text = "" + p2.CustomProperties["score"];
+
+        dashRem1Text.text = "" + p1.CustomProperties["p1DashRem"];
+        dashRem2Text.text = "" + p2.CustomProperties["p2DashRem"];
 
         //Debug.Log(scores);
     }

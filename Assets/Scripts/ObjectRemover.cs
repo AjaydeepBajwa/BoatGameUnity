@@ -49,6 +49,7 @@ public class ObjectRemover : MonoBehaviour
         if ((collision.gameObject.tag == "Obstacle"))
         {
             Destroy(collision.gameObject);
+
         }
         if (collision.gameObject.tag == "Circle")
         {
@@ -57,6 +58,7 @@ public class ObjectRemover : MonoBehaviour
             {
                 circleMissedAnim.transform.position = collision.gameObject.transform.position;
                 circleMissedAnim.SetActive(true);
+
             }
             else
             {
@@ -65,8 +67,15 @@ public class ObjectRemover : MonoBehaviour
             }
             //circleMissedAnim.transform.position = collision.gameObject.transform.position;
             Destroy(collision.gameObject);
+
+            //Destroy all the game objects
+                //foreach (GameObject i in UnityEngine.Object.FindObjectsOfType<GameObject>())
+                //{
+                //    Destroy(i);
+                //}
+          
             //circleMissedAnim.SetActive(true);
-           
+
             //collision.gameObject.SetActive(false);
             //StartCoroutine(SomeCoroutine());
             //collision.gameObject.SetActive(true);

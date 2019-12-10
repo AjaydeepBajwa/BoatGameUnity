@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class PlayerSpawner : MonoBehaviour
 {
@@ -58,6 +59,10 @@ public class PlayerSpawner : MonoBehaviour
                     dashAnim1.SetActive(true);
                     //Instantiate(dashAnimation, transform.position, transform.rotation);
                     anim1Instanciated = true;
+
+                    Hashtable hash = new Hashtable();
+                    hash.Add("boat1Dash", anim1Instanciated);
+                    PhotonNetwork.SetPlayerCustomProperties(hash);
                 }
 
             }
@@ -67,6 +72,10 @@ public class PlayerSpawner : MonoBehaviour
                 {
                     dashAnim1.SetActive(false);
                     anim1Instanciated = false;
+
+                    Hashtable hash = new Hashtable();
+                    hash.Add("boat1Dash", anim1Instanciated);
+                    PhotonNetwork.SetPlayerCustomProperties(hash);
                 }
             }
         }
@@ -87,6 +96,10 @@ public class PlayerSpawner : MonoBehaviour
                     dashAnim2.SetActive(true);
                     //Instantiate(dashAnimation, transform.position, transform.rotation);
                     anim2Instanciated = true;
+
+                    Hashtable hash = new Hashtable();
+                    hash.Add("boat2Dash", anim2Instanciated);
+                    PhotonNetwork.SetPlayerCustomProperties(hash);
                 }
 
             }
@@ -96,6 +109,10 @@ public class PlayerSpawner : MonoBehaviour
                 {
                     dashAnim2.SetActive(false);
                     anim2Instanciated = false;
+
+                    Hashtable hash = new Hashtable();
+                    hash.Add("boat2Dash", anim2Instanciated);
+                    PhotonNetwork.SetPlayerCustomProperties(hash);
                 }
             }
         }

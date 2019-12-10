@@ -103,15 +103,27 @@ public class LeftBoatMoveScript : MonoBehaviourPun
         }
         if (collision.gameObject.tag == "Obstacle")
         {
-            //destroyAnimation.SetActive(false);
-            //if (dashActive == true)
-            //{
-            //    Destroy(collision.gameObject);
-            //    destroyAnimation.transform.position = gameObject.transform.position;
-            //    destroyAnimation.SetActive(true);
-            //    uiManager.addScore();
-            //    uiManager.addScore();
-            //}
+            if (PhotonNetwork.IsMasterClient)
+            {
+                Player p1 = PhotonNetwork.PlayerList[0];
+                bool p1Dash = (bool)p1.CustomProperties["boat1Dash"];
+                //destroyAnimation.SetActive(false);
+                if (p1Dash == true)
+                {
+                    PhotonNetwork.Destroy(collision.gameObject);
+                    //destroyAnimation.transform.position = gameObject.transform.position;
+                    //destroyAnimation.SetActive(true);
+                    score1++;
+                    score1++;
+                }
+
+                else if (p1Dash == false)
+                {
+                    //PhotonNetwork.Destroy
+                }
+            }
+            
+            
             //else if (dashActive == false)
             //{
             //    Invoke("EndTheGame", 2);

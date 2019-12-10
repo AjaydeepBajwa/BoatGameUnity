@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using Photon.Realtime;
 using System;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
@@ -98,6 +99,26 @@ public class RightBoatMoveScript : MonoBehaviourPun
         }
         if (collision.gameObject.tag == "Obstacle")
         {
+
+            if (!PhotonNetwork.IsMasterClient)
+            {
+                Player p2 = PhotonNetwork.PlayerList[1];
+                bool p2Dash = (bool)p2.CustomProperties["boat2Dash"];
+                //destroyAnimation.SetActive(false);
+                if (p2Dash == true)
+                {
+                    PhotonNetwork.Destroy(collision.gameObject);
+                    //destroyAnimation.transform.position = gameObject.transform.position;
+                    //destroyAnimation.SetActive(true);
+                    score2++;
+                    score2++;
+                }
+
+                else if (p2Dash == false)
+                {
+                    //PhotonNetwork.Destroy
+                }
+            }
             //destroyAnimation.SetActive(false);
             //if (dashActive == true)
             //{
