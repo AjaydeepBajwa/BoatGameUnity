@@ -19,7 +19,7 @@ public class PlayerSpawner : MonoBehaviour
         }
         else if (!PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.Instantiate(player2Prefab.name, boat2Position, Quaternion.identity);
+           PhotonNetwork.Instantiate(player2Prefab.name, boat2Position, Quaternion.identity);
         }
         
     }
