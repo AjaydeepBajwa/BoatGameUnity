@@ -65,6 +65,10 @@ public class RightBoatMoveScript : MonoBehaviourPun
         //Using Clamp function to keep the boat between two lanes i.e. between minimumX to maximumX
         currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
         transform.position = currentPosition;
+
+        Hashtable hash = new Hashtable();
+        hash.Add("boat2Pos", transform.position.x);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
