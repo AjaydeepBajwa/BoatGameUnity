@@ -193,10 +193,9 @@ MonoBehaviour:
   dashActive: 0
   uiManager: {fileID: 1078383202}
   micInputCheck: {fileID: 1288990562}
-  dashAnimation: {fileID: 8758349751628887184, guid: 45b88766ce7024be5a55a77dcd5c03f1,
-    type: 3}
+  dashAnimation: {fileID: 305626253}
   destroyAnimation: {fileID: 1412508704}
-  delayTimer: 1
+  delayTimer: 3
   endGamee: 0
 --- !u!1 &109384919
 GameObject:
@@ -446,6 +445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dash1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8758349751628887184, guid: 45b88766ce7024be5a55a77dcd5c03f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8758349751628887189, guid: 45b88766ce7024be5a55a77dcd5c03f1,
         type: 3}
@@ -1541,15 +1545,13 @@ MonoBehaviour:
   minimumX: 0.9
   maximumX: 2.75
   boatPosition: right
-  MicTextBool: {fileID: 0}
+  MicTextBool: {fileID: 1863085068}
   dashActive: 0
   uiManager: {fileID: 1078383202}
   micInputCheck: {fileID: 1288990562}
-  dashAnimation: {fileID: 8758349751628887184, guid: 45b88766ce7024be5a55a77dcd5c03f1,
-    type: 3}
-  destroyAnimation: {fileID: 2552668617354401678, guid: 93f976112d9c24630a12d3632534274e,
-    type: 3}
-  delayTimer: 1
+  dashAnimation: {fileID: 1637301519}
+  destroyAnimation: {fileID: 1412508704}
+  delayTimer: 3
   endGamee: 0
 --- !u!212 &1428414196
 SpriteRenderer:
@@ -1750,6 +1752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dash2
       objectReference: {fileID: 0}
+    - target: {fileID: 8758349751628887184, guid: 45b88766ce7024be5a55a77dcd5c03f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8758349751628887189, guid: 45b88766ce7024be5a55a77dcd5c03f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1807,6 +1814,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b88766ce7024be5a55a77dcd5c03f1, type: 3}
+--- !u!1 &1637301519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8758349751628887184, guid: 45b88766ce7024be5a55a77dcd5c03f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1637301518}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1706771939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,7 +1902,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1078383202}
         m_MethodName: musicOnOff
         m_Mode: 1
         m_Arguments:
@@ -2326,7 +2339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1078383202}
         m_MethodName: soundOnOff
         m_Mode: 1
         m_Arguments:

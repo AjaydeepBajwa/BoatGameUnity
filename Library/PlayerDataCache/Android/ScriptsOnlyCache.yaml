@@ -34,6 +34,7 @@ ScriptsOnlyBuild:
     - GitHub.Unity.GitLocksCache
     - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
+    - GitHub.Unity.GitUserCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
     PhotonUnityNetworking.Demos.dll:

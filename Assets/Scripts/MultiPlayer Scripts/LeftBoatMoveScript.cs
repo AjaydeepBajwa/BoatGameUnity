@@ -125,7 +125,11 @@ public class LeftBoatMoveScript : MonoBehaviourPun
 
                 else if (p1Dash == false)
                 {
-                    if(score1 <= 2)
+                    if(score1 >= 2)
+                    {
+                        score1 = score1 - 2;
+                    }
+                    else
                     {
                         score1 = 0;
                     }

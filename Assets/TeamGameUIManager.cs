@@ -57,7 +57,15 @@ public class TeamGameUIManager : MonoBehaviour
     }
     public void reduceScore()
     {
-        score = score - 2;
+        if (score >= 2)
+        {
+            score = score - 2;
+        }
+        else
+        {
+            score = 0;
+        }
+        
         txtScore.text = "" + score + " Points";
 
         Hashtable hash = new Hashtable();

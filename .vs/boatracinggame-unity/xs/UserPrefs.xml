@@ -1,15 +1,20 @@
 ﻿<Properties StartupConfiguration="{BD9E913F-3818-B05E-E82A-87BAA7074F27}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerNameInput.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs">
     <Files>
       <File FileName="Assets/TeamGameObjectRemover.cs" Line="34" Column="10" />
       <File FileName="Assets/TeamGameMenuScript.cs" Line="284" Column="32" />
-      <File FileName="Assets/Scripts/UIManager.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="129" Column="33" />
       <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" Line="1668" Column="1" />
       <File FileName="Assets/Scripts/MicInputCheck.cs" Line="36" Column="1" />
-      <File FileName="Assets/TeamGameUIManager.cs" Line="101" Column="27" />
-      <File FileName="Assets/TeamGamePlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/TeamGameUIManager.cs" Line="66" Column="23" />
+      <File FileName="Assets/TeamGamePlayerScript.cs" Line="25" Column="32" />
       <File FileName="Assets/TeamGameOverScript.cs" Line="59" Column="45" />
-      <File FileName="Assets/Scripts/PlayerNameInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerNameInput.cs" Line="67" Column="36" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="31" Column="25" />
+      <File FileName="Assets/ScoreUpdater.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" Line="134" Column="36" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/RightBoatMoveScript.cs" Line="131" Column="36" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/SpawnObjectsOnLeft.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,8 +27,9 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="MultiPlayer Scripts" expanded="True" />
-                <Node name="PlayerNameInput.cs" selected="True" />
+                <Node name="MultiPlayer Scripts" expanded="True">
+                  <Node name="LeftBoatMoveScript.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

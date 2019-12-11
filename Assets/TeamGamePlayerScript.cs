@@ -22,7 +22,7 @@ public class TeamGamePlayerScript : MonoBehaviour
     public GameObject dashAnimation;
     public GameObject destroyAnimation;
     bool animInstanciated;
-    public float delayTimer = 1f;
+    public float delayTimer = 3f;
     float timer;
     public bool endGamee;
 

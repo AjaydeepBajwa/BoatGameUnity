@@ -122,9 +122,13 @@ public class RightBoatMoveScript : MonoBehaviourPun
 
                 else if (p2Dash == false)
                 {
-                    if(score2 > 0)
+                    if(score2 >= 2)
                     {
                         score2 = score2 - 2;
+                    }
+                    else
+                    {
+                        score2 = 0;
                     }
                     
                     PhotonNetwork.Destroy(collision.gameObject);
