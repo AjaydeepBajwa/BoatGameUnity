@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\MoveCircle.cs" />
     <Compile Include="Assets\Scripts\MultiMenuScene.cs" />
     <Compile Include="Assets\Scripts\MultiPlayer Scripts\LeftBoatMoveScript.cs" />
+    <Compile Include="Assets\Scripts\MultiPlayer Scripts\MultiGameOverScript.cs" />
     <Compile Include="Assets\Scripts\MultiPlayer Scripts\ObjectRemoverScript.cs" />
     <Compile Include="Assets\Scripts\MultiPlayer Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\MultiPlayer Scripts\RightBoatMoveScript.cs" />
