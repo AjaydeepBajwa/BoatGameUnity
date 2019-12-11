@@ -25,6 +25,11 @@ public class PlayerSpawner : MonoBehaviour
         dashAnim1.SetActive(false);
         dashAnim2.SetActive(false);
 
+        Hashtable hash = new Hashtable();
+        hash.Add("boat1Dash", false);
+        hash.Add("boat2Dash", false);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
+
         Vector3 boat1Position = new Vector3(-1.7f, -3.2f, 0);
         Vector3 boat2Position = new Vector3(1.7f, -3.2f, 0);
 

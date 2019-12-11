@@ -13,6 +13,7 @@ public class RightBoatMoveScript : MonoBehaviourPun
     private Vector2 direction;
     public float minimumX, maximumX;
     int score2;
+    bool p2Dash;
     //public Text scoreText2;
     //public string boatPosition;
     //public UIManagerMulti uIManagerMulti;
@@ -21,7 +22,12 @@ public class RightBoatMoveScript : MonoBehaviourPun
     {
             //boat is right
             direction = Vector2.right;
-        
+        p2Dash = false;
+
+        Hashtable hash = new Hashtable();
+        hash.Add("RightObstacleCollided", false);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
+
     }
 
     // Update is called once per frame
@@ -103,7 +109,7 @@ public class RightBoatMoveScript : MonoBehaviourPun
             if (!PhotonNetwork.IsMasterClient)
             {
                 Player p2 = PhotonNetwork.PlayerList[1];
-                bool p2Dash = (bool)p2.CustomProperties["boat2Dash"];
+                p2Dash = (bool)p2.CustomProperties["boat2Dash"];
                 //destroyAnimation.SetActive(false);
                 if (p2Dash == true)
                 {
@@ -116,8 +122,19 @@ public class RightBoatMoveScript : MonoBehaviourPun
 
                 else if (p2Dash == false)
                 {
+                    if(score2 > 0)
+                    {
+                        score2 = score2 - 2;
+                    }
+                    
+                    PhotonNetwork.Destroy(collision.gameObject);
                     //PhotonNetwork.Destroy
                 }
+                Hashtable hash = new Hashtable();
+                hash.Add("score", +score2);
+                hash.Add("RightObstacleCollided", true);
+                hash.Add("RightObstacleCollidePos", collision.gameObject.transform.position.x);
+                PhotonNetwork.SetPlayerCustomProperties(hash);
             }
             //destroyAnimation.SetActive(false);
             //if (dashActive == true)

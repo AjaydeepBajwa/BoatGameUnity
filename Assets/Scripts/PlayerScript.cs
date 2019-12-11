@@ -89,7 +89,7 @@ public class PlayerScript : MonoBehaviour
                 animInstanciated = false;
             }
         }
-        MicTextBool.gameObject.GetComponent<Text>().text = "" + micInputCheck.dashRemaining;
+        MicTextBool.gameObject.GetComponent<Text>().text = "" + micInputCheck.dashRemaining +" blows left";
 
         if (boatPosition == "left")
         {

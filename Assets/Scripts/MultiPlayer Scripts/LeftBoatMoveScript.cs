@@ -12,6 +12,7 @@ public class LeftBoatMoveScript : MonoBehaviourPun
     public int speed;
     private Vector2 direction;
     public float minimumX, maximumX;
+    bool p1Dash;
     //public Text scoreText1;
     //public string boatPosition;
     int score1 = 0;
@@ -21,8 +22,13 @@ public class LeftBoatMoveScript : MonoBehaviourPun
     // Start is called before the first frame update
     void Start()
     {
-            direction = Vector2.left;
-        
+        direction = Vector2.left;
+        p1Dash = false;
+
+        Hashtable hash = new Hashtable();
+        hash.Add("LeftObstacleCollided", false);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
+
     }
 
     // Update is called once per frame
@@ -106,7 +112,7 @@ public class LeftBoatMoveScript : MonoBehaviourPun
             if (PhotonNetwork.IsMasterClient)
             {
                 Player p1 = PhotonNetwork.PlayerList[0];
-                bool p1Dash = (bool)p1.CustomProperties["boat1Dash"];
+                p1Dash = (bool)p1.CustomProperties["boat1Dash"];
                 //destroyAnimation.SetActive(false);
                 if (p1Dash == true)
                 {
@@ -119,8 +125,22 @@ public class LeftBoatMoveScript : MonoBehaviourPun
 
                 else if (p1Dash == false)
                 {
-                    //PhotonNetwork.Destroy
+                    if(score1 > 0)
+                    {
+                        score1 = score1 - 2;
+                    }
+                    
+                    //PhotonNetwork.Destroy(gameObject);
+                    PhotonNetwork.Destroy(collision.gameObject);
                 }
+                Hashtable hash = new Hashtable();
+                hash.Add("score", +score1);
+                hash.Add("LeftObstacleCollided", true);
+                hash.Add("LeftObstacleCollidePos", collision.gameObject.transform.position.x);
+
+                PhotonNetwork.SetPlayerCustomProperties(hash);
+                
+
             }
             
             

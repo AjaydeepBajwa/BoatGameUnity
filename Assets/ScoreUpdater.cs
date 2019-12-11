@@ -13,21 +13,34 @@ public class ScoreUpdater : MonoBehaviour
     public Text score2Text;
     public Text dashRem1Text;
     public Text dashRem2Text;
+    public Text timeRemText;
+
+    public float timeRem = 60;
     // Start is called before the first frame update
     void Start()
     {
-        
+        score1Text.text = "0";
+        score2Text.text = "0";
+        dashRem1Text.text = "5";
+        dashRem2Text.text = "5";
     }
 
     // Update is called once per frame
     void Update()
     {
-        //string scores = string.Empty;
 
-        //foreach (Player p in PhotonNetwork.PlayerList)
-        //{
-        //    scores += p.NickName + " Score:" + p.CustomProperties["score"] +"\n";
-        //}
+        timeRem -= Time.deltaTime;
+        timeRemText.text = "" + timeRem;
+        if (timeRem <= 0)
+        {
+            PhotonNetwork.LoadLevel(5);
+        }
+            //string scores = string.Empty;
+
+            //foreach (Player p in PhotonNetwork.PlayerList)
+            //{
+            //    scores += p.NickName + " Score:" + p.CustomProperties["score"] +"\n";
+            //}
         Player p1 = PhotonNetwork.PlayerList[0];
         Player p2 = PhotonNetwork.PlayerList[1];
 

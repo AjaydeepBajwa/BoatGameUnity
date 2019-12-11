@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
     public void addScore()
     {
         score++;
-        txtScore.text = "" + score;
+        txtScore.text = "" + score +" Points";
     }
 
     public void PlaySingle()
