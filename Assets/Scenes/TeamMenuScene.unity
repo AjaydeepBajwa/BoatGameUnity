@@ -509,6 +509,7 @@ MonoBehaviour:
   P2NameText: {fileID: 370882656}
   P3NameText: {fileID: 1078130417}
   P4NameText: {fileID: 2130399379}
+  startGameButton: {fileID: 778745864}
 --- !u!4 &395194697
 Transform:
   m_ObjectHideFlags: 0
@@ -750,7 +751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &778745863
 RectTransform:
   m_ObjectHideFlags: 0

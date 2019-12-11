@@ -123,15 +123,6 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
         {
             waitingStatusText.text = "Opponent found";
             Debug.Log("Match is ready to begin");
-
-            //p1 = PhotonNetwork.PlayerList[0];
-            //p2 = PhotonNetwork.PlayerList[1];
-            ////p3 = PhotonNetwork.PlayerList[0];
-            ////p4 = PhotonNetwork.PlayerList[0];
-            //P1NameText.text = p1.NickName;
-            //P2NameText.text = p2.NickName;
-            ////P3NameText.text = p3.NickName;
-            ////P4NameText.text = p4.NickName;
         }
     }
 
@@ -140,11 +131,18 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
         if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
         {
 
-            PhotonNetwork.CurrentRoom.IsOpen = false;
+            PhotonNetwork.CurrentRoom.IsOpen = true;
             waitingStatusText.text = "Opponent found";
             Debug.Log("Match is ready to begin");
 
-           
+            int playersJoinedCount = PhotonNetwork.PlayerList.Length;
+
+            for (int i = 0; i < playersJoinedCount; i++)
+            {
+                playerButtons[i].gameObject.SetActive(true);
+                playerNamesText[i].text = PhotonNetwork.PlayerList[i].NickName;
+                Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
+            }
         }
     }
 
@@ -227,7 +225,8 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
 
     public void startTeamGame()
     {
-        
+        startGameButton.gameObject.SetActive(true);
+        PhotonNetwork.LoadLevel(8);
     }
  
 }
