@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TeamMatchScene.unity
     guid: 90fc47ae9fc924c30abd9e10c5f14c7b
+  - enabled: 1
+    path: Assets/Scenes/TeamGameOver.unity
+    guid: 8254ebaa758fb48c3849ce0ab22ad5ac
   m_configObjects: {}

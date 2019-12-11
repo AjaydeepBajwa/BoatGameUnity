@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
+
     public int speed;
     private Vector2 direction;
     public float minimumX, maximumX;
@@ -25,6 +26,7 @@ public class PlayerScript : MonoBehaviour
     public float delayTimer = 1f;
     float timer;
     public bool endGamee;
+
 
     private void Awake()
     {
