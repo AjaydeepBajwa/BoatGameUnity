@@ -59,7 +59,7 @@ public class MicInputCheck : MonoBehaviour
             if (levelMax <= wavePeak)
             {
                 levelMax = wavePeak;
-                Debug.Log("LEVEL MAX: " + levelMax);
+//                Debug.Log("LEVEL MAX: " + levelMax);
             }
         }
         return levelMax;

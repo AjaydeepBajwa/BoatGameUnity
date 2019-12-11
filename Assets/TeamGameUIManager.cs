@@ -38,6 +38,7 @@ public class TeamGameUIManager : MonoBehaviour
         {
             PhotonNetwork.LoadLevel(9);
         }
+        getPlayersScores();
     }
 
     void OnDisable()
@@ -68,24 +69,28 @@ public class TeamGameUIManager : MonoBehaviour
     {
 
         //playerList[0] is master client in our case
-        int team1p1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1p1"];
-        int team1p2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1p2"];
+        int t1P1Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P1Index"];
+        int t1P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P2Index"];
+        //Debug.Log("TEAM 1 INDEXES ARE: " + t1P1Index + " and " + t1P2Index);
 
-        int team2p1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2p1"];
-        int team2p2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2p2"];
+        int t2P1Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t2P1Index"];
+        int t2P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t2P2Index"];
+        //Debug.Log("TEAM 2 INDEXES ARE: " + t2P1Index + " and " + t2P2Index);
 
-        string team1P1Name = (string)PhotonNetwork.PlayerList[team1p1Index].NickName;
-        string team1P2Name = (string)PhotonNetwork.PlayerList[team1p2Index].NickName;
-        string team2P1Name = (string)PhotonNetwork.PlayerList[team2p1Index].NickName;
-        string team2P2Name = (string)PhotonNetwork.PlayerList[team2p2Index].NickName;
+        string t1P1Name = (string)PhotonNetwork.PlayerList[t1P1Index].NickName;
+        string t1P2Name = (string)PhotonNetwork.PlayerList[t1P2Index].NickName;
+        string t2P1Name = (string)PhotonNetwork.PlayerList[t2P1Index].NickName;
+        string t2P2Name = (string)PhotonNetwork.PlayerList[t2P2Index].NickName;
 
-        int team1P1Score = (int)PhotonNetwork.PlayerList[team1p1Index].CustomProperties["score"];
-        int team1P2Score = (int)PhotonNetwork.PlayerList[team1p2Index].CustomProperties["score"];
-        int team2P1Score = (int)PhotonNetwork.PlayerList[team2p1Index].CustomProperties["score"];
-        int team2P2Score = (int)PhotonNetwork.PlayerList[team2p2Index].CustomProperties["score"];
+        int t1P1Score = (int)PhotonNetwork.PlayerList[t1P1Index].CustomProperties["score"];
+        int t1P2Score = (int)PhotonNetwork.PlayerList[t1P2Index].CustomProperties["score"];
+        int t2P1Score = (int)PhotonNetwork.PlayerList[t2P1Index].CustomProperties["score"];
+        int t2P2Score = (int)PhotonNetwork.PlayerList[t2P2Index].CustomProperties["score"];
 
-        int team1Score = team1P1Score + team1P2Score;
-        int team2Score = team2P1Score + team2P2Score;
+        Debug.Log("T1P1 SCORE: " + t1P1Score +"T1P2 SCORE: "+t1P2Score +"T2P1 SCORE: "+t2P1Score +"T2P2 SCORE: "+t2P2Score);
+
+        int team1Score = t1P1Score + t1P2Score;
+        int team2Score = t2P1Score + t2P2Score;
 
         t1ScoreText.text = "" + team1Score;
         t2ScoreText.text = "" + team2Score;
@@ -93,16 +98,14 @@ public class TeamGameUIManager : MonoBehaviour
         Debug.Log("Team1 Score:" + team1Score + "and Team2 Score: " + team2Score);
 
         Hashtable hash = new Hashtable();
-        hash.Add("team1P1Name", team1P1Name);
-        hash.Add("team1P2Name", team1P2Name);
-        hash.Add("team2P1Name", team2P1Name);
-        hash.Add("team2P2Name", team2P2Name);
-
-        hash.Add("team1P1Score", team1P1Score);
-        hash.Add("team1P2Score", team1P2Score);
-        hash.Add("team2P1Score", team2P1Score);
-        hash.Add("team2P2Score", team2P2Score);
-
+        hash.Add("t1P1Name", t1P1Name);
+        hash.Add("t1P2Name", t1P2Name);
+        hash.Add("t2P1Name", t2P1Name);
+        hash.Add("t2P2Name", t2P2Name);
+        hash.Add("t1P1Score", t1P1Score);
+        hash.Add("t1P2Score", t1P2Score);
+        hash.Add("t2P1Score", t2P1Score);
+        hash.Add("t2P2Score", t2P2Score);
         hash.Add("team1Score", team1Score);
         hash.Add("team2Score", team1Score);
         PhotonNetwork.SetPlayerCustomProperties(hash);
@@ -192,6 +195,7 @@ public class TeamGameUIManager : MonoBehaviour
     public void Quit()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(2);
+        PhotonNetwork.LoadLevel(9);
+        //SceneManager.LoadScene(9);
     }
 }

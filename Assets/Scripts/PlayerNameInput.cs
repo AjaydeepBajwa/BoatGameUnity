@@ -61,6 +61,13 @@ public class PlayerNameInput : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void goToHomeTeam()
+    {
+        PhotonNetwork.Disconnect();
+        PhotonNetwork.LoadLevel(0);
+    }
+
+
     // Update is called once per frame
     void Update()
     {

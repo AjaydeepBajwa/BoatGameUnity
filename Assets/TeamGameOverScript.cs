@@ -25,22 +25,30 @@ public class TeamGameOverScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int team1Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1Score"];
-        int team2Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2Score"];
-
-        team1ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1Score"];
-        team2ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1Score"];
-
-        t1p1NameText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1P1Score"];
-        t1p2NameText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1P2Score"];
-        t2p1NameText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team2P1Score"];
-        t2p2NameText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team2P2Score"];
+        
 
 
-        t1p1ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1P1Score"];
-        t1p2ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team1P2Score"];
-        t2p1ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team2P1Score"];
-        t2p2ScoreText.text = (string)PhotonNetwork.PlayerList[0].CustomProperties["team2P2Score"];
+    }
+
+    public void getScores()
+    {
+        int team1Score = (int)PhotonNetwork.LocalPlayer.CustomProperties["team1Score"];
+        int team2Score = (int)PhotonNetwork.LocalPlayer.CustomProperties["team2Score"];
+
+        team1ScoreText.text = "" + team1Score;
+        team2ScoreText.text = "" + team2Score;
+
+        t1p1NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t1P1Name"];
+        t1p2NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t1P2Name"];
+        t2p1NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t2P1Name"];
+        t2p2NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t2P2Name"];
+
+
+        t1p1ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t1P1Score"];
+        t1p2ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t1P2Score"];
+        t2p1ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t2P1Score"];
+        t2p2ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t2P2Score"];
+
 
         if (team1Score > team2Score)
         {
@@ -48,13 +56,12 @@ public class TeamGameOverScript : MonoBehaviour
         }
         else
         {
-            winnerTeamNameText.text = "Team2 Wins";
+            winnerTeamNameText.text = "Team 2 Wins";
         }
         if (team1Score == team2Score)
         {
             winnerTeamNameText.text = "It's a tie";
         }
-
     }
 
     // Update is called once per frame
@@ -65,6 +72,7 @@ public class TeamGameOverScript : MonoBehaviour
 
     public void GoToHome()
     {
+        PhotonNetwork.Disconnect();
         SceneManager.LoadScene(0);
     }
 }

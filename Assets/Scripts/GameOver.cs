@@ -14,7 +14,6 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //uiManager = GetComponent<UIManager>();
         highScore = PlayerPrefs.GetInt("highScore");
         score = PlayerPrefs.GetInt("score");
         if (score > highScore)
@@ -31,14 +30,9 @@ public class GameOver : MonoBehaviour
     void Update()
     {
         txtFinalScore.text = "SCORE: " + score;
-        //uiManager = GetComponent<UIManager>();
-        //Debug.Log("Final Score: " +score);
-        //txtFinalScore.text = uiManager.txtScore.text;
+       
     }
-    //private void OnEnable()
-    //{
-    //    score = PlayerPrefs.GetInt("score");
-    //}
+  
 
     public void GotoHome()
     {

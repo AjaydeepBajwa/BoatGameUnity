@@ -58,5 +58,6 @@ public class ScoreUpdater : MonoBehaviour
     public void quit2PGame()
     {
         PhotonNetwork.LoadLevel(5);
+        
     }
 }

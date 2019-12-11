@@ -54,6 +54,7 @@ public class MultiGameOverScript : MonoBehaviour
 
     public void GoToHome()
     {
+        PhotonNetwork.Disconnect();
         SceneManager.LoadScene(0);
     }
     

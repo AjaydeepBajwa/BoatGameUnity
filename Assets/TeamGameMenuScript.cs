@@ -24,6 +24,8 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
     public Text P3NameText;
     public Text P4NameText;
 
+    //done with teams
+    public Button doneButton;
     public Button startGameButton;
     Button[] playerButtons;
     Text[] playerNamesText;
@@ -132,8 +134,8 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
         if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
         {
 
-            PhotonNetwork.CurrentRoom.IsOpen = true;
-            waitingStatusText.text = "Opponent found";
+            PhotonNetwork.CurrentRoom.IsOpen = false;
+            waitingStatusText.text = "2 Players found";
             Debug.Log("Match is ready to begin");
 
             int playersJoinedCount = PhotonNetwork.PlayerList.Length;
@@ -142,7 +144,7 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
             {
                 playerButtons[i].gameObject.SetActive(true);
                 playerNamesText[i].text = PhotonNetwork.PlayerList[i].NickName;
-                Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
+                Debug.Log("ALL PLAYERS JOINED, Players Name: " + PhotonNetwork.PlayerList[i].NickName);
             }
         }
     }
@@ -157,15 +159,20 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        int playersJoinedCount = PhotonNetwork.PlayerList.Length;
-
-        for (int i = 0; i < playersJoinedCount; i++)
+        //Debug.Log("PlayersCount in current room: " + PhotonNetwork.CurrentRoom.PlayerCount);
+        if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
         {
-            playerButtons[i].gameObject.SetActive(true);
-            playerNamesText[i].text = PhotonNetwork.PlayerList[i].NickName;
-            //Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
+            int playersJoinedCount = PhotonNetwork.PlayerList.Length;
+
+            for (int j = 0; j < playersJoinedCount; j++)
+            {
+                playerButtons[j].gameObject.SetActive(true);
+                playerNamesText[j].text = PhotonNetwork.PlayerList[j].NickName;
+                //Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
+            }
+            //setTeams();
+            showDoneButton();
         }
-        setTeams();
     }
 
     public void switchTeam()
@@ -183,7 +190,7 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
                 Button selectedButton = playerButtons[selectedButtonTag];
                 selectedButton.transform.position = new Vector2(800, selectedButton.transform.position.y);
 
-                team2Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
+                //team2Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
 
             }
             if (i % 2 != 0)
@@ -195,53 +202,103 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
                 Button selectedButton = playerButtons[selectedButtonTag];
                 selectedButton.transform.position = new Vector2(300, selectedButton.transform.position.y);
 
-                team1Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
+                //team1Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
             }
             i++;
 
         }
     }
 
+    public void showDoneButton()
+    {
+        int leftCount = 0;
+        int rightCount = 0;
+        for (int j = 0; j < maxPlayersPerRoom; j++)
+        {
+            
+            if (playerButtons[j].transform.position.x < 500)
+            {
+                leftCount++;
+            }
+            if(playerButtons[j].transform.position.x > 500)
+            {
+                rightCount++;
+            }
+
+        }
+        if ((leftCount == maxPlayersPerRoom/2)&&(rightCount == maxPlayersPerRoom / 2))
+        {
+            if (startGameButton.IsActive() == false)
+            {
+                doneButton.gameObject.SetActive(true);
+            }
+            //Debug.Log("DONE BUTTON SET TRUE");
+        }
+        else
+        {
+            doneButton.gameObject.SetActive(false);
+            //Debug.Log("DONE BUTTON SET FALSE");
+        }
+    }
+
     public void setTeams()
     {
-        if (PhotonNetwork.IsMasterClient)
-        {
+        //if (PhotonNetwork.IsMasterClient)
+        //{
 
             if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
             {
+            Debug.Log("Entered in SetTeams function, currentplayersCount: "+PhotonNetwork.CurrentRoom.PlayerCount);
 
-                for (int i = 0; i < playerButtons.Length; i++)
+            for (int j = 0; j < PhotonNetwork.CurrentRoom.PlayerCount; j++)
+            {
+
+                if (playerButtons[j].transform.position.x < 500)
                 {
-                    if (playerButtons[i].transform.position.x < 500)
-                    {
-                        team1Players.Add(PhotonNetwork.PlayerList[i]);
-                        team1PlayersIndexes.Add(i);
 
-                        Hashtable hash = new Hashtable();
-                        hash.Add("team1p"+i+"", i);
-                        PhotonNetwork.SetPlayerCustomProperties(hash);
-                        //Debug.Log("Team1 Players indexes:" + PhotonNetwork.PlayerList[i].NickName);
-                    }
-                    else
-                    {
-                        team2Players.Add(PhotonNetwork.PlayerList[i]);
-                        team2PlayersIndexes.Add(i);
+                    team1Players.Add(PhotonNetwork.PlayerList[j]);
+                    team1PlayersIndexes.Add(j);
 
-                        Hashtable hash = new Hashtable();
-                        hash.Add("team2p" + i + "", i);
-                        PhotonNetwork.SetPlayerCustomProperties(hash);
-                        //Debug.Log("Team2 Players:" + PhotonNetwork.PlayerList[i].NickName);
-                    }
-                    if ((team1PlayersIndexes.Count == 2) && (team2PlayersIndexes.Count == 2))
-                    {
-                        Debug.Log("TEAM1 players: " + PhotonNetwork.PlayerList[team1PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team1PlayersIndexes[1]].NickName);
-                        Debug.Log("TEAM2 players: " + PhotonNetwork.PlayerList[team2PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team1PlayersIndexes[2]].NickName);
-                        //startTeamGame();
-                    }
+                    //Hashtable hash = new Hashtable();
+                    //    hash.Add("team1pi"+j+"", j);
+                    //    PhotonNetwork.SetPlayerCustomProperties(hash);
+                    //Debug.Log("Team1 Players indexes:" + PhotonNetwork.PlayerList[i].NickName);
                 }
-                startGameButton.gameObject.SetActive(true);
+                if ((playerButtons[j].transform.position.x > 500))
+                {
+                    team2Players.Add(PhotonNetwork.PlayerList[j]);
+                    team2PlayersIndexes.Add(j);
+
+                    //Hashtable hash = new Hashtable();
+                    //hash.Add("team2pi" + j + "", j);
+                    //PhotonNetwork.SetPlayerCustomProperties(hash);
+                    //Debug.Log("Team2 Players:" + PhotonNetwork.PlayerList[i].NickName);
+                }
             }
-        }
+                Debug.Log("Team1 Players Indexes:" + team1PlayersIndexes[0] +" and " +team1PlayersIndexes[1]);
+                Debug.Log("Team2 Players Indexes:" + team2PlayersIndexes[0] +" and " +team2PlayersIndexes[1]);
+
+
+            //Sending player indexes to network.
+            Hashtable hash = new Hashtable();
+            hash.Add("t1P1Index", team1PlayersIndexes[0]);
+            hash.Add("t1P2Index", team1PlayersIndexes[1]);
+            hash.Add("t2P1Index", team2PlayersIndexes[0]);
+            hash.Add("t2P2Index", team2PlayersIndexes[1]);
+            PhotonNetwork.SetPlayerCustomProperties(hash);
+            
+
+            //if ((team1PlayersIndexes.Count == maxPlayersPerRoom/2) && (team2PlayersIndexes.Count == maxPlayersPerRoom/2))
+            //{
+            //    Debug.Log("TEAM1 players: " + PhotonNetwork.PlayerList[team1PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team1PlayersIndexes[1]].NickName);
+            //    Debug.Log("TEAM2 players: " + PhotonNetwork.PlayerList[team2PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team2PlayersIndexes[1]].NickName);
+            //    //startTeamGame();
+            //}
+
+            doneButton.gameObject.SetActive(false);
+            startGameButton.gameObject.SetActive(true);
+            }
+        //}
     }
 
     public void startTeamGame()

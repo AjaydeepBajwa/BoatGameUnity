@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - SpawnPickups
     - TeamGameMenuScript
     - TeamGameObjectRemover
+    - TeamGameOverScript
     - TeamGamePlayerScript
     - TeamGameUIManager
     - UIManager
@@ -591,13 +592,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10480}
     - Class: 114
-      Script: {instanceID: 10542}
-    - Class: 114
       Script: {instanceID: 11034}
     - Class: 114
       Script: {instanceID: 11618}
     - Class: 114
       Script: {instanceID: 12078}
+    - Class: 114
+      Script: {instanceID: 67438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -665,8 +666,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11388}
     - Class: 114
       Script: {instanceID: 11618}
-    - Class: 114
-      Script: {instanceID: 11660}
     - Class: 114
       Script: {instanceID: 12078}
     - Class: 114
@@ -1785,7 +1784,7 @@ ScriptsOnlyBuild:
     className: PlayerListView
   - hash:
       serializedVersion: 2
-      Hash: 4821d41cc07abaecfbd668074c8babbf
+      Hash: 68f1febb9f4111397a6039b0ff33c6ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeamGameMenuScript
@@ -2103,10 +2102,16 @@ ScriptsOnlyBuild:
     className: TeamGameObjectRemover
   - hash:
       serializedVersion: 2
-      Hash: 9a568f224428c6c92c42d7f256e702fa
+      Hash: c45b562440653961a655242577d1b139
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeamGameUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 72a57963469ddb31e54049e087adae64
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeamGameOverScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MenuScene.unity

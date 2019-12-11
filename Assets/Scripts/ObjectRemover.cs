@@ -38,7 +38,7 @@ public class ObjectRemover : MonoBehaviour
             {
                 //circleMissedAnim.SetActive(false);
                 //circleAnimStarted = false;
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
 
         }

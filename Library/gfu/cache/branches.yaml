@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-12-11T07:58:50.459-05:00
+  lastUpdatedAtString: 2019-12-11T17:21:38.385-05:00
   initializedAtString: 2019-12-11T01:33:09.375-05:00
   localBranches:
   - name: master
@@ -26,6 +26,13 @@ MonoBehaviour:
   remotes:
   - name: origin
     url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggame-unity.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  - name: afterDeadline
+    url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggameunity-after-moodle-deadline.git
     login: 
     user: 
     host: 
@@ -62,6 +69,9 @@ MonoBehaviour:
   configRemotes:
     keys:
     - origin
+    - afterDeadline
     values:
     - name: origin
       url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggame-unity.git
+    - name: afterDeadline
+      url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggameunity-after-moodle-deadline.git
