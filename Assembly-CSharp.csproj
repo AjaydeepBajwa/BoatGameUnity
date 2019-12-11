@@ -87,6 +87,7 @@
     <Compile Include="Assets\SpawnObjectsOnRight.cs" />
     <Compile Include="Assets\TeamGameMenuScript.cs" />
     <Compile Include="Assets\TeamGameObjectRemover.cs" />
+    <Compile Include="Assets\TeamGameOverScript.cs" />
     <Compile Include="Assets\TeamGamePlayerScript.cs" />
     <Compile Include="Assets\TeamGameUIManager.cs" />
     <Compile Include="Assets\UIManagerMulti.cs" />
