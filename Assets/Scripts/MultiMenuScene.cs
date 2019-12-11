@@ -105,6 +105,11 @@ public class MultiMenuScene : MonoBehaviourPunCallbacks
             PhotonNetwork.LoadLevel(4);
         }
     }
+
+    public void showFindOpponentPanel()
+    {
+        findOpponentPanel.SetActive(true);
+    }
     // Start is called before the first frame update
     void Start()
     {

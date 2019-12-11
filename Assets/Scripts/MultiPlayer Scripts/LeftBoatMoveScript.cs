@@ -125,9 +125,9 @@ public class LeftBoatMoveScript : MonoBehaviourPun
 
                 else if (p1Dash == false)
                 {
-                    if(score1 > 0)
+                    if(score1 <= 2)
                     {
-                        score1 = score1 - 2;
+                        score1 = 0;
                     }
                     
                     //PhotonNetwork.Destroy(gameObject);

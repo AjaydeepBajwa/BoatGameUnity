@@ -165,7 +165,7 @@ public class PlayerScript : MonoBehaviour
             {
                 //circleMissedAnim.SetActive(false);
                 //circleAnimStarted = false;
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
 
         }
@@ -209,13 +209,13 @@ public class PlayerScript : MonoBehaviour
 
                 //Destroy(dashAnimation.GetComponent<Animator>().;
                 //Application.LoadLevel(1);
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
 
             }
         }
     }
     public void EndTheGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

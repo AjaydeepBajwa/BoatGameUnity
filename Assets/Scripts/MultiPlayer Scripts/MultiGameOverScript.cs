@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class MultiGameOverScript : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class MultiGameOverScript : MonoBehaviour
     public Text p1NameText;
     public Text p2NameText;
     public Text winnerNameText;
+
+    public Button gotoHomeBtn;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,4 +51,10 @@ public class MultiGameOverScript : MonoBehaviour
     {
         
     }
+
+    public void GoToHome()
+    {
+        SceneManager.LoadScene(0);
+    }
+    
 }

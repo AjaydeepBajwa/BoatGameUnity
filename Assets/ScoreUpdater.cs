@@ -30,7 +30,7 @@ public class ScoreUpdater : MonoBehaviour
     {
 
         timeRem -= Time.deltaTime;
-        timeRemText.text = "" + timeRem;
+        timeRemText.text = "" + (int)timeRem;
         if (timeRem <= 0)
         {
             PhotonNetwork.LoadLevel(5);
@@ -53,5 +53,10 @@ public class ScoreUpdater : MonoBehaviour
         dashRem2Text.text = "" + p2.CustomProperties["p2DashRem"];
 
         //Debug.Log(scores);
+    }
+
+    public void quit2PGame()
+    {
+        PhotonNetwork.LoadLevel(5);
     }
 }

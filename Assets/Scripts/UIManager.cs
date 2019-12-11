@@ -41,10 +41,14 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("Loaded 1P Scene");
         // Application.LoadLevel("1PScene");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
+    }
+    public void GotoMultiplayerMenu()
+    {
+        SceneManager.LoadScene(6);
     }
 
-    public void GotoMultiplayerMenu()
+    public void GotoTwoPlayerMenu()
     {
         //Application.LoadLevel("1PScene");
         SceneManager.LoadScene(3);

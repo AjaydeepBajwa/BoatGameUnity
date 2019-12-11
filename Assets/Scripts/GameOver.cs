@@ -42,6 +42,6 @@ public class GameOver : MonoBehaviour
 
     public void GotoHome()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }

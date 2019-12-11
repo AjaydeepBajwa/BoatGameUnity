@@ -9,6 +9,9 @@ public class PlayerNameInput : MonoBehaviour
     [SerializeField] public InputField playerNameField = null;
     [SerializeField] public Button goButton = null;
 
+    public GameObject goButtonn;
+    public GameObject findOpponentPanel;
+
     private const string playerPrefsNameKey = "playerName";
 
     // Start is called before the first frame update
@@ -44,7 +47,11 @@ public class PlayerNameInput : MonoBehaviour
 
     }
 
-
+    public void showFindOpponentPanel()
+    {
+        findOpponentPanel.SetActive(true);
+        goButtonn.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
