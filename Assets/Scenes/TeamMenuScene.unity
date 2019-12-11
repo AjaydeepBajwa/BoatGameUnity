@@ -816,7 +816,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 395194696}
-        m_MethodName: setTeams
+        m_MethodName: startTeamGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

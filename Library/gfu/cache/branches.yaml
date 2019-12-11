@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-12-11T00:30:26.655-05:00
-  initializedAtString: 2019-12-10T19:42:40.332-05:00
+  lastUpdatedAtString: 2019-12-11T01:33:09.392-05:00
+  initializedAtString: 2019-12-11T01:33:09.375-05:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -46,15 +44,9 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
-      - master
     subKeyValues:
     - Values:
       - name: HEAD
-        remote:
-          name: origin
-          url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggame-unity.git
-        trackingBranch: 
-      - name: master
         remote:
           name: origin
           url: https://ajaybajwa@bitbucket.org/ajaybajwa/boatracinggame-unity.git

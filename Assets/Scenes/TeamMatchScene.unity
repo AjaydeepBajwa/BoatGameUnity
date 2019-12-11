@@ -786,7 +786,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -488.3, y: 1061.8}
-  m_SizeDelta: {x: 336.9, y: 100.4}
+  m_SizeDelta: {x: 385.7, y: 100.4}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &687604441
 MonoBehaviour:
@@ -819,7 +819,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T1 Points
+  m_Text: 'T1: 6 Points'
 --- !u!222 &687604442
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1721,7 +1721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00 Points
+  m_Text: 4 Points
 --- !u!222 &1466683615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2505,8 +2505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 167, y: 1061.8}
-  m_SizeDelta: {x: 336.9, y: 100.4}
+  m_AnchoredPosition: {x: 110.29999, y: 1061.8}
+  m_SizeDelta: {x: 393.6, y: 100.4}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2098464684
 MonoBehaviour:
@@ -2539,7 +2539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T2 Points
+  m_Text: 'T2: 7 Points'
 --- !u!222 &2098464685
 CanvasRenderer:
   m_ObjectHideFlags: 0
