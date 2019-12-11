@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerNameInput : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerNameInput : MonoBehaviour
 
     public GameObject goButtonn;
     public GameObject findOpponentPanel;
+    //public GameObject homeButton;
 
     private const string playerPrefsNameKey = "playerName";
 
@@ -51,6 +53,12 @@ public class PlayerNameInput : MonoBehaviour
     {
         findOpponentPanel.SetActive(true);
         goButtonn.SetActive(false);
+    }
+
+    public void goToHome()
+    {
+        PhotonNetwork.Disconnect();
+        SceneManager.LoadScene(0);
     }
 
     // Update is called once per frame

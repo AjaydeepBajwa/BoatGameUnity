@@ -106,10 +106,7 @@ public class MultiMenuScene : MonoBehaviourPunCallbacks
         }
     }
 
-    public void showFindOpponentPanel()
-    {
-        findOpponentPanel.SetActive(true);
-    }
+    
     // Start is called before the first frame update
     void Start()
     {
