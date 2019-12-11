@@ -54,6 +54,11 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
+    public void GotoTeamGameMenu()
+    {
+        SceneManager.LoadScene(7);
+    }
+
     public void Pause()
     {
 
