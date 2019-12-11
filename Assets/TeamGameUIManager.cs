@@ -18,8 +18,6 @@ public class TeamGameUIManager : MonoBehaviour
     public Text timeRemText;
 
 
-    public TeamGameMenuScript teamGameMenuScript;
-
     //public Text micTextBool;
 
     public AudioManager audioMan;

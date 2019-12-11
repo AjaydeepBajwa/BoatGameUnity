@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-11T07:58:09.301-05:00
+  lastUpdatedAtString: 2019-12-11T07:59:41.578-05:00
   initializedAtString: 2019-12-11T01:33:07.630-05:00
   entries:
+  - path: .vs/boatracinggame-unity/xs/UserPrefs.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/.vs/boatracinggame-unity/xs/UserPrefs.xml
+    projectPath: .vs/boatracinggame-unity/xs/UserPrefs.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets/Scenes/TeamMatchScene.unity
     fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/TeamMatchScene.unity
     projectPath: Assets/Scenes/TeamMatchScene.unity
@@ -100,15 +106,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/StateCache/SceneView/6a0315-mainStage.json
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/StateCache/SceneView/6a0315-mainStage.json
-    projectPath: Library/StateCache/SceneView/6a0315-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp/UnityTempFile-6af83c0d3ab13404ea71e48dc5cd91d0
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-6af83c0d3ab13404ea71e48dc5cd91d0
-    projectPath: Temp/UnityTempFile-6af83c0d3ab13404ea71e48dc5cd91d0
+  - path: Temp/UnityTempFile-3c9840c0e12904d32a6cc11723ddaa5e
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-3c9840c0e12904d32a6cc11723ddaa5e
+    projectPath: Temp/UnityTempFile-3c9840c0e12904d32a6cc11723ddaa5e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
