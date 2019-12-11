@@ -388,7 +388,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1078383202}
         m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
@@ -1410,9 +1410,10 @@ MonoBehaviour:
   - {fileID: 1901725177}
   score: 0
   txtScore: {fileID: 1466683614}
-  t1Score: {fileID: 687604441}
-  t2Score: {fileID: 2098464684}
+  t1ScoreText: {fileID: 687604441}
+  t2ScoreText: {fileID: 2098464684}
   timeRemText: {fileID: 558979637}
+  teamGameMenuScript: {fileID: 0}
   audioMan: {fileID: 914083889}
   timeRem: 60
 --- !u!4 &1078383203
@@ -2587,7 +2588,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1078383202}
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:

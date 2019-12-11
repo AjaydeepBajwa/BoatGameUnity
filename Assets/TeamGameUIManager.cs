@@ -110,6 +110,11 @@ public class TeamGameUIManager : MonoBehaviour
         PhotonNetwork.SetPlayerCustomProperties(hash);
     }
 
+    public void gotoTeamGameOver()
+    {
+        PhotonNetwork.LoadLevel(9);
+    }
+
     public void PlaySingle()
     {
         Debug.Log("Loaded 1P Scene");
