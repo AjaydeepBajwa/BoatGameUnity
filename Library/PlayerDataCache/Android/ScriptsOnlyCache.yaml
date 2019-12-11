@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - SpawnObjectsOnLeft
     - SpawnObjectsOnRight
     - SpawnPickups
+    - TeamGameMenuScript
     - UIManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
@@ -451,6 +452,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -548,6 +551,61 @@ ScriptsOnlyBuild:
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/TeamMenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9724}
+    - Class: 114
+      Script: {instanceID: 9934}
+    - Class: 114
+      Script: {instanceID: 9980}
+    - Class: 114
+      Script: {instanceID: 10234}
+    - Class: 114
+      Script: {instanceID: 10476}
+    - Class: 114
+      Script: {instanceID: 11030}
+    - Class: 114
+      Script: {instanceID: 11266}
+    - Class: 114
+      Script: {instanceID: 11614}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 48632}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1896,6 +1954,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ea5b932240834f44aadee2a176b542e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeamGameMenuScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
@@ -1905,4 +1969,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MultiPlayerGameScene.unity
   - Assets/Scenes/MultiplayerGameOverScene.unity
   - Assets/Scenes/MultiplayerMainMenuScene.unity
+  - Assets/Scenes/TeamMenuScene.unity
   playerPath: /Users/AJAY-MAC/Boat RacingGame/BoatRacingGameAndroid.apk

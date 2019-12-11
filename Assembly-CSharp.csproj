@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\SpawnPickups.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\SpawnObjectsOnRight.cs" />
+    <Compile Include="Assets\TeamGameMenuScript.cs" />
     <Compile Include="Assets\UIManagerMulti.cs" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />

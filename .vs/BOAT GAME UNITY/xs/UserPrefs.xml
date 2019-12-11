@@ -1,22 +1,12 @@
 ﻿<Properties StartupConfiguration="{3C56D088-7689-B482-91B9-CB29C97A54D0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerNameInput.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiPlayer Scripts/SpawnObjectsOnLeft.cs">
     <Files>
-      <File FileName="Assets/ScoreUpdater.cs" Line="32" Column="35" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/MultiGameOverScript.cs" Line="57" Column="35" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" Line="130" Column="35" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/RightBoatMoveScript.cs" Line="27" Column="9" />
-      <File FileName="Assets/MicInputCheckMultiPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/ObjectRemoverScript.cs" Line="43" Column="28" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/PlayerSpawner.cs" Line="127" Column="1" />
-      <File FileName="Assets/UIManagerMulti.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="219" Column="22" />
-      <File FileName="Assets/SpawnObjectsOnRight.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UIManager.cs" Line="44" Column="22" />
-      <File FileName="Assets/Scripts/MicInputCheck.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameOver.cs" Line="45" Column="33" />
-      <File FileName="Assets/NameTag.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MultiMenuScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/TeamGameMenuScript.cs" Line="40" Column="35" />
+      <File FileName="Assets/Scripts/MultiMenuScene.cs" Line="108" Column="1" />
       <File FileName="Assets/Scripts/PlayerNameInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="59" Column="35" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" Line="114" Column="17" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/SpawnObjectsOnLeft.cs" Line="29" Column="66" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,8 +14,9 @@
           <Node name="BOAT GAME UNITY" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="MultiPlayer Scripts" expanded="True" />
-                <Node name="PlayerNameInput.cs" selected="True" />
+                <Node name="MultiPlayer Scripts" expanded="True">
+                  <Node name="SpawnObjectsOnLeft.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
