@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class TeamGameUIManager : MonoBehaviour
 {
@@ -11,9 +13,12 @@ public class TeamGameUIManager : MonoBehaviour
     public Text[] btnTexts;
     public int score = 0;
     public Text txtScore;
-    bool gotCircle;
+    public Text t1ScoreText;
+    public Text t2ScoreText;
     public Text timeRemText;
 
+
+    public TeamGameMenuScript teamGameMenuScript;
 
     //public Text micTextBool;
 
@@ -46,11 +51,63 @@ public class TeamGameUIManager : MonoBehaviour
     {
         score++;
         txtScore.text = "" + score + " Points";
+
+        Hashtable hash = new Hashtable();
+        hash.Add("score", score);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
     }
     public void reduceScore()
     {
         score = score - 2;
         txtScore.text = "" + score + " Points";
+
+        Hashtable hash = new Hashtable();
+        hash.Add("score", score);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
+    }
+
+    public void getPlayersScores()
+    {
+
+        //playerList[0] is master client in our case
+        int team1p1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1p1"];
+        int team1p2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1p2"];
+
+        int team2p1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2p1"];
+        int team2p2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2p2"];
+
+        string team1P1Name = (string)PhotonNetwork.PlayerList[team1p1Index].NickName;
+        string team1P2Name = (string)PhotonNetwork.PlayerList[team1p2Index].NickName;
+        string team2P1Name = (string)PhotonNetwork.PlayerList[team2p1Index].NickName;
+        string team2P2Name = (string)PhotonNetwork.PlayerList[team2p2Index].NickName;
+
+        int team1P1Score = (int)PhotonNetwork.PlayerList[team1p1Index].CustomProperties["score"];
+        int team1P2Score = (int)PhotonNetwork.PlayerList[team1p2Index].CustomProperties["score"];
+        int team2P1Score = (int)PhotonNetwork.PlayerList[team2p1Index].CustomProperties["score"];
+        int team2P2Score = (int)PhotonNetwork.PlayerList[team2p2Index].CustomProperties["score"];
+
+        int team1Score = team1P1Score + team1P2Score;
+        int team2Score = team2P1Score + team2P2Score;
+
+        t1ScoreText.text = "" + team1Score;
+        t2ScoreText.text = "" + team2Score;
+
+        Debug.Log("Team1 Score:" + team1Score + "and Team2 Score: " + team2Score);
+
+        Hashtable hash = new Hashtable();
+        hash.Add("team1P1Name", team1P1Name);
+        hash.Add("team1P2Name", team1P2Name);
+        hash.Add("team2P1Name", team2P1Name);
+        hash.Add("team2P2Name", team2P2Name);
+
+        hash.Add("team1P1Score", team1P1Score);
+        hash.Add("team1P2Score", team1P2Score);
+        hash.Add("team2P1Score", team2P1Score);
+        hash.Add("team2P2Score", team2P2Score);
+
+        hash.Add("team1Score", team1Score);
+        hash.Add("team2Score", team1Score);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
     }
 
     public void PlaySingle()

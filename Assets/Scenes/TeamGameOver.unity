@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 154140712}
   - component: {fileID: 154140711}
   m_Layer: 5
-  m_Name: PlayerWon (2)
+  m_Name: TEAM2TEXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 666698563}
   - component: {fileID: 666698562}
   m_Layer: 5
-  m_Name: PlayerWon
+  m_Name: WinnerTeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -571,15 +571,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 849860848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdf985551477144cb837d9aa240b5d1f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ba382f230655466aa2f7bb3b5913de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p1ScoreText: {fileID: 957766342}
-  p2ScoreText: {fileID: 1925931979}
-  p1NameText: {fileID: 523316100}
-  p2NameText: {fileID: 852197671}
-  winnerNameText: {fileID: 666698562}
-  gotoHomeBtn: {fileID: 0}
+  team1ScoreText: {fileID: 953976714}
+  team2ScoreText: {fileID: 1862503028}
+  t1p1NameText: {fileID: 523316100}
+  t1p2NameText: {fileID: 852197671}
+  t2p1NameText: {fileID: 887253821}
+  t2p2NameText: {fileID: 1576687426}
+  t1p1ScoreText: {fileID: 957766342}
+  t1p2ScoreText: {fileID: 1925931979}
+  t2p1ScoreText: {fileID: 887253821}
+  t2p2ScoreText: {fileID: 1919194295}
+  winnerTeamNameText: {fileID: 666698562}
+  gotoHomeBtn: {fileID: 1966769290}
 --- !u!4 &849860850
 Transform:
   m_ObjectHideFlags: 0
@@ -997,7 +1003,7 @@ GameObject:
   - component: {fileID: 1315500643}
   - component: {fileID: 1315500642}
   m_Layer: 5
-  m_Name: PlayerWon (1)
+  m_Name: TEAM1TEXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1162,7 @@ GameObject:
   - component: {fileID: 1576687427}
   - component: {fileID: 1576687426}
   m_Layer: 5
-  m_Name: Team1P2Name (1)
+  m_Name: Team2P2Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

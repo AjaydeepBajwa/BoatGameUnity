@@ -5,6 +5,7 @@ using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 
 public class TeamGameMenuScript : MonoBehaviourPunCallbacks
@@ -215,12 +216,20 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
                     {
                         team1Players.Add(PhotonNetwork.PlayerList[i]);
                         team1PlayersIndexes.Add(i);
+
+                        Hashtable hash = new Hashtable();
+                        hash.Add("team1p"+i+"", i);
+                        PhotonNetwork.SetPlayerCustomProperties(hash);
                         //Debug.Log("Team1 Players indexes:" + PhotonNetwork.PlayerList[i].NickName);
                     }
                     else
                     {
                         team2Players.Add(PhotonNetwork.PlayerList[i]);
                         team2PlayersIndexes.Add(i);
+
+                        Hashtable hash = new Hashtable();
+                        hash.Add("team2p" + i + "", i);
+                        PhotonNetwork.SetPlayerCustomProperties(hash);
                         //Debug.Log("Team2 Players:" + PhotonNetwork.PlayerList[i].NickName);
                     }
                     if ((team1PlayersIndexes.Count == 2) && (team2PlayersIndexes.Count == 2))
