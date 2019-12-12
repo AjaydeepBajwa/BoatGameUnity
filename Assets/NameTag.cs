@@ -24,14 +24,6 @@ public class NameTag : MonoBehaviourPun
     {
         nameTag.text = photonView.Owner.NickName;
         Debug.Log("Name is "+nameTag.text);
-        //if (PhotonNetwork.IsMasterClient)
-        //{
-        //    nameTag1.text = photonView.Owner.NickName;
-        //}
-        //else if (!PhotonNetwork.IsMasterClient)
-        //{
-        //    nameTag2.text = photonView.Owner.NickName;
-        //}
 
     }
 

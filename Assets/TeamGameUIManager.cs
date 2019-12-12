@@ -40,7 +40,6 @@ public class TeamGameUIManager : MonoBehaviour
         {
             PhotonNetwork.LoadLevel(9);
         }
-        
     }
 
     void OnDisable()
@@ -78,7 +77,7 @@ public class TeamGameUIManager : MonoBehaviour
     public void getPlayersScores()
     {
 
-        //playerList[0] is master client in our case
+        //playerList[0] is master client
         int t1P1Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P1Index"];
         int t1P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P2Index"];
         //Debug.Log("TEAM 1 INDEXES ARE: " + t1P1Index + " and " + t1P2Index);
@@ -140,7 +139,6 @@ public class TeamGameUIManager : MonoBehaviour
 
     public void GotoTwoPlayerMenu()
     {
-        //Application.LoadLevel("1PScene");
         SceneManager.LoadScene(3);
     }
 

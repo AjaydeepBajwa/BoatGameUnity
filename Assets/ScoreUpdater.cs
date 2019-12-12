@@ -35,12 +35,7 @@ public class ScoreUpdater : MonoBehaviour
         {
             PhotonNetwork.LoadLevel(5);
         }
-            //string scores = string.Empty;
-
-            //foreach (Player p in PhotonNetwork.PlayerList)
-            //{
-            //    scores += p.NickName + " Score:" + p.CustomProperties["score"] +"\n";
-            //}
+            
         Player p1 = PhotonNetwork.PlayerList[0];
         Player p2 = PhotonNetwork.PlayerList[1];
 

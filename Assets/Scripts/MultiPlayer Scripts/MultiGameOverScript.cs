@@ -14,7 +14,6 @@ public class MultiGameOverScript : MonoBehaviour
     public Text p1NameText;
     public Text p2NameText;
     public Text winnerNameText;
-
     public Button gotoHomeBtn;
     // Start is called before the first frame update
     void Start()

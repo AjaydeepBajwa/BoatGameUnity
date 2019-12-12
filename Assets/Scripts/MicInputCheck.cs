@@ -30,8 +30,6 @@ public class MicInputCheck : MonoBehaviour
         }
         _clipRecord = Microphone.Start(_device, true, 999, 44100);
 
-        //playerScript.setDashActive();
-        //Debug.Log("DASH CONDITION: " + playerScript.dashActive);
     }
 
     void StopMicrophone()
@@ -39,7 +37,6 @@ public class MicInputCheck : MonoBehaviour
         Microphone.End(_device);
         Debug.Log("Mic Stopped");
     }
-
 
     AudioClip _clipRecord;
     int _sampleWindow = 128;
@@ -69,7 +66,6 @@ public class MicInputCheck : MonoBehaviour
     {
         timer = delayTimer;
         dashRemaining = 5;
-        //playerScript = GetComponent<PlayerScript>();
     }
 
     void Update()
@@ -80,12 +76,8 @@ public class MicInputCheck : MonoBehaviour
         //Debug.Log("MIC LOUDNESS: " + MicLoudness);
         if (MicLoudness > 0.8)
         {
-            //EndGameMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
             MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
-            //SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
-            //buttons.gameObject.SetActive(false);
-            //playerScript.setDashActive();
-            //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
+     
             if (dashActive == false)
             {
                 if (dashRemaining >= 1)
@@ -93,7 +85,6 @@ public class MicInputCheck : MonoBehaviour
                     dashActive = true;
                     dashRemaining = dashRemaining - 1;
                 }
-
             }
             timer = delayTimer;
             dashTimer = true;
@@ -106,21 +97,9 @@ public class MicInputCheck : MonoBehaviour
                 dashActive = false;
                 timer = delayTimer;
                 dashTimer = false;
-                //dashRemaining = dashRemaining - 1;
+                
             }
         }
-
-
-        //else if (MicLoudness < 0.8)
-        //{
-        //    MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
-        //    //SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
-        //    //playerScript.setDashInactive();
-        //    if (dashActive == true)
-        //    {
-        //        dashActive = false;
-        //    }
-        //}
     }
 
     bool _isInitialized;

@@ -18,8 +18,6 @@ public class PlayerScript : MonoBehaviour
 
     public UIManager uiManager;
     public MicInputCheck micInputCheck;
-    //public GameObject leftBoat;
-    //public GameObject rightBoat;
     public GameObject dashAnimation;
     public GameObject destroyAnimation;
     bool animInstanciated;
@@ -36,12 +34,10 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //uiManager = GetComponent<UIManager>();
         timer = delayTimer;
         animInstanciated = false;
         dashAnimation.SetActive(false);
         destroyAnimation.SetActive(false);
-        //endGamee = false;
 
         if (boatPosition == "left")
         {
@@ -53,7 +49,6 @@ public class PlayerScript : MonoBehaviour
             //boat is right
             direction = Vector2.right;
         }
-        //direction = Vector2.zero;
     }
 
     public void setDashActive()
@@ -69,7 +64,6 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("DASH ANIMATION INSTRANCE ID:" +dashAnimation.GetInstanceID());
         dashActive = micInputCheck.dashActive;
         Vector2 dashAnimPosition = new Vector2(transform.position.x, transform.position.y - 1.73f);
         dashAnimation.transform.position = dashAnimPosition;
@@ -78,7 +72,6 @@ public class PlayerScript : MonoBehaviour
             if (animInstanciated == false)
             {
                 dashAnimation.SetActive(true);
-                //Instantiate(dashAnimation, transform.position, transform.rotation);
                 animInstanciated = true;
             }
 
@@ -121,6 +114,7 @@ public class PlayerScript : MonoBehaviour
 
             //x coordinate for left boat should be -2.75 to -0.9
             Vector2 currentPosition = transform.position;
+
             //Using Clamp function to keep the boat between two lanes i.e. between minimumX to maximumX
             currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
             transform.position = currentPosition;
@@ -153,6 +147,7 @@ public class PlayerScript : MonoBehaviour
 
             //x coordinate for left boat should be -2.75 to -0.9
             Vector2 currentPosition = transform.position;
+
             //Using Clamp function to keep the boat between two lanes i.e. between minimumX to maximumX
             currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
             transform.position = currentPosition;
@@ -160,34 +155,22 @@ public class PlayerScript : MonoBehaviour
 
         if (endGamee == true)
         {
-
-            //timer = delayTimer;
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                //circleMissedAnim.SetActive(false);
-                //circleAnimStarted = false;
                 SceneManager.LoadScene(2);
             }
 
         }
-        //MicTextBool.GetComponent<Text>().text = "" +timer;
 
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Circle")
         {
-            //score++;
-            //points.text = ""+score;
-            //Debug.Log(score + " points");
-            //gotCircle = true;
             Destroy(collision.gameObject);
-            //points.text = "" + score;
-            //gotCircle = false;
             uiManager.addScore();
-            //Destroy(dashAnimation);
-            //dashAnimation.GetComponent<Animator>().enabled = false;
+        
         }
         if (collision.gameObject.tag == "Obstacle")
         {
@@ -203,14 +186,10 @@ public class PlayerScript : MonoBehaviour
             else if (dashActive == false)
             {
                 Invoke("EndTheGame", 2);
-                //endGamee = true; 
-                // dashAnimation.GetComponent<Animator>().enabled = false;
                 Destroy(gameObject);
                 destroyAnimation.transform.position = gameObject.transform.position;
                 destroyAnimation.SetActive(true);
 
-                //Destroy(dashAnimation.GetComponent<Animator>().;
-                //Application.LoadLevel(1);
                 SceneManager.LoadScene(2);
 
             }

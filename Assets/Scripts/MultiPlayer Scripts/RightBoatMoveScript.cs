@@ -110,12 +110,9 @@ public class RightBoatMoveScript : MonoBehaviourPun
             {
                 Player p2 = PhotonNetwork.PlayerList[1];
                 p2Dash = (bool)p2.CustomProperties["boat2Dash"];
-                //destroyAnimation.SetActive(false);
                 if (p2Dash == true)
                 {
                     PhotonNetwork.Destroy(collision.gameObject);
-                    //destroyAnimation.transform.position = gameObject.transform.position;
-                    //destroyAnimation.SetActive(true);
                     score2++;
                     score2++;
                 }
@@ -132,7 +129,7 @@ public class RightBoatMoveScript : MonoBehaviourPun
                     }
                     
                     PhotonNetwork.Destroy(collision.gameObject);
-                    //PhotonNetwork.Destroy
+                    
                 }
                 Hashtable hash = new Hashtable();
                 hash.Add("score", +score2);
@@ -165,8 +162,5 @@ public class RightBoatMoveScript : MonoBehaviourPun
             //}
         }
     }
-    public void EndTheGame()
-    {
-        //SceneManager.LoadScene(1);
-    }
+   
 }

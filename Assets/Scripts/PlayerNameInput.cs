@@ -12,7 +12,6 @@ public class PlayerNameInput : MonoBehaviour
 
     public GameObject goButtonn;
     public GameObject findOpponentPanel;
-    //public GameObject homeButton;
 
     private const string playerPrefsNameKey = "playerName";
 

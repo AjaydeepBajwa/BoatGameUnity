@@ -17,6 +17,7 @@ public class PlayerSpawner : MonoBehaviour
     public GameObject dashAnim1;
     public GameObject dashAnim2;
     public MicInputCheckMultiPlayer micInputCheckMulti;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,11 +48,8 @@ public class PlayerSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-
         if (PhotonNetwork.IsMasterClient)
         {
-
             dashActive1 = micInputCheckMulti.dashActive1;
             Player p1 = PhotonNetwork.PlayerList[0];
             float p1X = (float)p1.CustomProperties["boat1Pos"];
@@ -62,7 +60,6 @@ public class PlayerSpawner : MonoBehaviour
                 if (anim1Instanciated == false)
                 {
                     dashAnim1.SetActive(true);
-                    //Instantiate(dashAnimation, transform.position, transform.rotation);
                     anim1Instanciated = true;
 
                     Hashtable hash = new Hashtable();
@@ -99,7 +96,6 @@ public class PlayerSpawner : MonoBehaviour
                 if (anim2Instanciated == false)
                 {
                     dashAnim2.SetActive(true);
-                    //Instantiate(dashAnimation, transform.position, transform.rotation);
                     anim2Instanciated = true;
 
                     Hashtable hash = new Hashtable();

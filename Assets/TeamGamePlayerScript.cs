@@ -52,7 +52,6 @@ public class TeamGamePlayerScript : MonoBehaviour
             //boat is right
             direction = Vector2.right;
         }
-        //direction = Vector2.zero;
     }
 
     public void setDashActive()
@@ -68,7 +67,6 @@ public class TeamGamePlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("DASH ANIMATION INSTRANCE ID:" +dashAnimation.GetInstanceID());
         dashActive = micInputCheck.dashActive;
         Vector2 dashAnimPosition = new Vector2(transform.position.x, transform.position.y - 1.73f);
         dashAnimation.transform.position = dashAnimPosition;
@@ -159,34 +157,20 @@ public class TeamGamePlayerScript : MonoBehaviour
 
         if (endGamee == true)
         {
-
-            //timer = delayTimer;
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                //circleMissedAnim.SetActive(false);
-                //circleAnimStarted = false;
                 SceneManager.LoadScene(2);
             }
 
         }
-        //MicTextBool.GetComponent<Text>().text = "" +timer;
-
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Circle")
         {
-            //score++;
-            //points.text = ""+score;
-            //Debug.Log(score + " points");
-            //gotCircle = true;
             Destroy(collision.gameObject);
-            //points.text = "" + score;
-            //gotCircle = false;
             uiManager.addScore();
-            //Destroy(dashAnimation);
-            //dashAnimation.GetComponent<Animator>().enabled = false;
         }
         if (collision.gameObject.tag == "Obstacle")
         {

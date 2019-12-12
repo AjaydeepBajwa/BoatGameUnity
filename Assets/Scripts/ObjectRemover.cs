@@ -29,15 +29,12 @@ public class ObjectRemover : MonoBehaviour
         {
             if (circleAnimStarted == false)
             {
-                //circleMissedAnim.SetActive(true);
                 circleAnimStarted = true;
             }
-            //timer = delayTimer;
+            
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                //circleMissedAnim.SetActive(false);
-                //circleAnimStarted = false;
                 SceneManager.LoadScene(2);
             }
 
@@ -65,34 +62,14 @@ public class ObjectRemover : MonoBehaviour
                 rightCircleMissedAnim.SetActive(true);
                 rightCircleMissedAnim.transform.position = collision.gameObject.transform.position;
             }
-            //circleMissedAnim.transform.position = collision.gameObject.transform.position;
+
             Destroy(collision.gameObject);
 
-            //Destroy all the game objects
-                //foreach (GameObject i in UnityEngine.Object.FindObjectsOfType<GameObject>())
-                //{
-                //    Destroy(i);
-                //}
-          
-            //circleMissedAnim.SetActive(true);
-
-            //collision.gameObject.SetActive(false);
-            //StartCoroutine(SomeCoroutine());
-            //collision.gameObject.SetActive(true);
-            //StartCoroutine(SomeCoroutine());
-            //collision.gameObject.SetActive(false);
-            //StartCoroutine(SomeCoroutine());
-            //collision.gameObject.SetActive(true); 
-
-            //SceneManager.LoadScene(1);
         }
     }
     private IEnumerator SomeCoroutine()
     {
-        
         yield return new WaitForSeconds(2);
-        
-       
     }
 
 

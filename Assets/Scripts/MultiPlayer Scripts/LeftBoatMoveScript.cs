@@ -1,10 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Photon.Pun;
+﻿using Photon.Pun;
 using Photon.Realtime;
-using UnityEngine.UI;
-using System;
+using UnityEngine;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class LeftBoatMoveScript : MonoBehaviourPun
@@ -13,12 +9,9 @@ public class LeftBoatMoveScript : MonoBehaviourPun
     private Vector2 direction;
     public float minimumX, maximumX;
     bool p1Dash;
-    //public Text scoreText1;
-    //public string boatPosition;
+   
     int score1 = 0;
-    //int score2 = 0;
-
-    //public UIManagerMulti uIManagerMulti;
+;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,8 +31,6 @@ public class LeftBoatMoveScript : MonoBehaviourPun
         {
             movePlayer();
         }
-
-
     }
 
     private void movePlayer()
@@ -70,6 +61,7 @@ public class LeftBoatMoveScript : MonoBehaviourPun
 
             //x coordinate for left boat should be -2.75 to -0.9
             Vector2 currentPosition = transform.position;
+
             //Using Clamp function to keep the boat between two lanes i.e. between minimumX to maximumX
             currentPosition.x = Mathf.Clamp(currentPosition.x, minimumX, maximumX);
             transform.position = currentPosition;
@@ -86,26 +78,13 @@ public class LeftBoatMoveScript : MonoBehaviourPun
             if (PhotonNetwork.IsMasterClient)
             {
                 score1++;
-                //scoreText1.text = "" + score1;
-
-                //int KillScore = (int)PhotonNetwork.player.customProperties["Kills"];
-                //killScore++;
                 Hashtable hash = new Hashtable();
                 hash.Add("score", +score1);
                 PhotonNetwork.SetPlayerCustomProperties(hash);
-
             }
 
-            //score++;
-            //points.text = ""+score;
-            //Debug.Log(score + " points");
-            //gotCircle = true;
             PhotonNetwork.Destroy(collision.gameObject);
-            //points.text = "" + score;
-            //gotCircle = false;
-            //uIManagerMulti.addScore();
-            //Destroy(dashAnimation);
-            //dashAnimation.GetComponent<Animator>().enabled = false;
+      
         }
         if (collision.gameObject.tag == "Obstacle")
         {
@@ -113,12 +92,10 @@ public class LeftBoatMoveScript : MonoBehaviourPun
             {
                 Player p1 = PhotonNetwork.PlayerList[0];
                 p1Dash = (bool)p1.CustomProperties["boat1Dash"];
-                //destroyAnimation.SetActive(false);
+              
                 if (p1Dash == true)
                 {
                     PhotonNetwork.Destroy(collision.gameObject);
-                    //destroyAnimation.transform.position = gameObject.transform.position;
-                    //destroyAnimation.SetActive(true);
                     score1++;
                     score1++;
                 }
@@ -133,8 +110,6 @@ public class LeftBoatMoveScript : MonoBehaviourPun
                     {
                         score1 = 0;
                     }
-                    
-                    //PhotonNetwork.Destroy(gameObject);
                     PhotonNetwork.Destroy(collision.gameObject);
                 }
                 Hashtable hash = new Hashtable();
@@ -143,29 +118,7 @@ public class LeftBoatMoveScript : MonoBehaviourPun
                 hash.Add("LeftObstacleCollidePos", collision.gameObject.transform.position.x);
 
                 PhotonNetwork.SetPlayerCustomProperties(hash);
-                
-
             }
-            
-            
-            //else if (dashActive == false)
-            //{
-            //    Invoke("EndTheGame", 2);
-            //    //endGamee = true; 
-            //    // dashAnimation.GetComponent<Animator>().enabled = false;
-            //    Destroy(gameObject);
-            //    destroyAnimation.transform.position = gameObject.transform.position;
-            //    destroyAnimation.SetActive(true);
-
-            //    //Destroy(dashAnimation.GetComponent<Animator>().;
-            //    //Application.LoadLevel(1);
-            //    SceneManager.LoadScene(1);
-
-            //}
         }
-    }
-    public void EndTheGame()
-    {
-        //SceneManager.LoadScene(1);
     }
 }

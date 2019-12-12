@@ -168,18 +168,9 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
             playerNamesText[i].text = PhotonNetwork.PlayerList[i].NickName;
             waitingStatusText.text = "" + i + " Player joined";
         }
-        //Debug.Log("PlayersCount in current room: " + PhotonNetwork.CurrentRoom.PlayerCount);
+
         if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
         {
-            //int playersJoinedCount = PhotonNetwork.PlayerList.Length;
-
-            //for (int j = 0; j < playersJoinedCount; j++)
-            //{
-            //    playerButtons[j].gameObject.SetActive(true);
-            //    playerNamesText[j].text = PhotonNetwork.PlayerList[j].NickName;
-            //    //Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
-            //}
-            //setTeams();
             showDoneButton();
         }
     }
@@ -193,25 +184,19 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
             {
 
                 string buttonClickedName = EventSystem.current.currentSelectedGameObject.name;
-                //Debug.Log("CURRENT BUTTON: " + buttonClickedName);
-                //EventSystem.current.currentSelectedGameObject.SetActive(false);
                 int selectedButtonTag = int.Parse(EventSystem.current.currentSelectedGameObject.tag);
                 Button selectedButton = playerButtons[selectedButtonTag];
                 selectedButton.transform.position = new Vector2(800, selectedButton.transform.position.y);
-
-                //team2Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
 
             }
             if (i % 2 != 0)
             {
                 string buttonClickedName = EventSystem.current.currentSelectedGameObject.name;
                 //Debug.Log("CURRENT BUTTON: " + buttonClickedName);
-                //EventSystem.current.currentSelectedGameObject.SetActive(false);
                 int selectedButtonTag = int.Parse(EventSystem.current.currentSelectedGameObject.tag);
                 Button selectedButton = playerButtons[selectedButtonTag];
                 selectedButton.transform.position = new Vector2(300, selectedButton.transform.position.y);
 
-                //team1Players.Add(PhotonNetwork.PlayerList[selectedButtonTag]);
             }
             i++;
 
@@ -268,20 +253,14 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
                     team1Players.Add(PhotonNetwork.PlayerList[j]);
                     team1PlayersIndexes.Add(j);
 
-                    //Hashtable hash = new Hashtable();
-                    //    hash.Add("team1pi"+j+"", j);
-                    //    PhotonNetwork.SetPlayerCustomProperties(hash);
-                    //Debug.Log("Team1 Players indexes:" + PhotonNetwork.PlayerList[i].NickName);
+                 
                 }
                 if ((playerButtons[j].transform.position.x > 500))
                 {
                     team2Players.Add(PhotonNetwork.PlayerList[j]);
                     team2PlayersIndexes.Add(j);
 
-                    //Hashtable hash = new Hashtable();
-                    //hash.Add("team2pi" + j + "", j);
-                    //PhotonNetwork.SetPlayerCustomProperties(hash);
-                    //Debug.Log("Team2 Players:" + PhotonNetwork.PlayerList[i].NickName);
+               
                 }
             }
                 Debug.Log("Team1 Players Indexes:" + team1PlayersIndexes[0] +" and " +team1PlayersIndexes[1]);
@@ -295,15 +274,7 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
             hash.Add("t2P1Index", team2PlayersIndexes[0]);
             hash.Add("t2P2Index", team2PlayersIndexes[1]);
             PhotonNetwork.SetPlayerCustomProperties(hash);
-            
-
-            //if ((team1PlayersIndexes.Count == maxPlayersPerRoom/2) && (team2PlayersIndexes.Count == maxPlayersPerRoom/2))
-            //{
-            //    Debug.Log("TEAM1 players: " + PhotonNetwork.PlayerList[team1PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team1PlayersIndexes[1]].NickName);
-            //    Debug.Log("TEAM2 players: " + PhotonNetwork.PlayerList[team2PlayersIndexes[0]].NickName + "and " + PhotonNetwork.PlayerList[team2PlayersIndexes[1]].NickName);
-            //    //startTeamGame();
-            //}
-
+    
             doneButton.gameObject.SetActive(false);
             startGameButton.gameObject.SetActive(true);
             }

@@ -13,11 +13,6 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
 
     private string _device;
 
-    //public Button buttons;
-    //public Text MicText;
-    //public Text SPMicText;
-    //public Text EndGameMicText;
-    //public PlayerScript playerScript;
     public bool dashActive1;
     public bool dashActive2;
     public float delayTimer = 4f;
@@ -39,8 +34,6 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
         }
         _clipRecord = Microphone.Start(_device, true, 999, 44100);
 
-        //playerScript.setDashActive();
-        //Debug.Log("DASH CONDITION: " + playerScript.dashActive);
     }
 
     void StopMicrophone()
@@ -80,7 +73,6 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
         timer2 = delayTimer;
         dashRemaining1 = 5;
         dashRemaining2 = 5;
-        //playerScript = GetComponent<PlayerScript>();
     }
 
     void Update()
@@ -91,12 +83,6 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
         //Debug.Log("MIC LOUDNESS: " + MicLoudness);
         if (MicLoudness > 0.8)
         {
-            //EndGameMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness;
-            //MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
-            //SPMicText.gameObject.GetComponent<Text>().text = ""+MicLoudness; 
-            //buttons.gameObject.SetActive(false);
-            //playerScript.setDashActive();
-            //Debug.Log("DASH CONDITION: "+playerScript.dashActive);
             if (PhotonNetwork.IsMasterClient)
             {
                 if (dashActive1 == false)
@@ -144,7 +130,6 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
                 dashActive1 = false;
                 timer1 = delayTimer;
                 dashTimer1 = false;
-                //dashRemaining = dashRemaining - 1;
             }
         }
 
@@ -156,21 +141,9 @@ public class MicInputCheckMultiPlayer : MonoBehaviour
                 dashActive2 = false;
                 timer2 = delayTimer;
                 dashTimer2 = false;
-                //dashRemaining = dashRemaining - 1;
             }
         }
 
-
-        //else if (MicLoudness < 0.8)
-        //{
-        //    MicText.gameObject.GetComponent<Text>().text = "" + MicLoudness;
-        //    //SPMicText.gameObject.GetComponent<Text>().text = "MMMMMM";
-        //    //playerScript.setDashInactive();
-        //    if (dashActive == true)
-        //    {
-        //        dashActive = false;
-        //    }
-        //}
     }
 
     bool _isInitialized;
