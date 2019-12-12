@@ -13,51 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-11T19:21:07.290-05:00
+  lastUpdatedAtString: 2019-12-11T20:28:52.536-05:00
   initializedAtString: 2019-12-11T01:33:07.630-05:00
   entries:
-  - path: Assets/Scenes/1PScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/1PScene.unity
-    projectPath: Assets/Scenes/1PScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/GameEndScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/GameEndScene.unity
-    projectPath: Assets/Scenes/GameEndScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/MenuScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/MenuScene.unity
-    projectPath: Assets/Scenes/MenuScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/MultiplayerGameOverScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/MultiplayerGameOverScene.unity
-    projectPath: Assets/Scenes/MultiplayerGameOverScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/MultiPlayerGameScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/MultiPlayerGameScene.unity
-    projectPath: Assets/Scenes/MultiPlayerGameScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/MultiplayerMainMenuScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/MultiplayerMainMenuScene.unity
-    projectPath: Assets/Scenes/MultiplayerMainMenuScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/MultiPlayerMenuScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/MultiPlayerMenuScene.unity
-    projectPath: Assets/Scenes/MultiPlayerMenuScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets/Scenes/TeamGameOver.unity
     fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/TeamGameOver.unity
     projectPath: Assets/Scenes/TeamGameOver.unity
@@ -70,9 +28,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scenes/TeamMenuScene.unity
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/Scenes/TeamMenuScene.unity
-    projectPath: Assets/Scenes/TeamMenuScene.unity
+  - path: Assets/TeamGameMenuScript.cs
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/TeamGameMenuScript.cs
+    projectPath: Assets/TeamGameMenuScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/TeamGameOverScript.cs
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/TeamGameOverScript.cs
+    projectPath: Assets/TeamGameOverScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/TeamGameUIManager.cs
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Assets/TeamGameUIManager.cs
+    projectPath: Assets/TeamGameUIManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -124,9 +94,177 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
+  - path: Library/LastBuild.buildreport
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/LastBuild.buildreport
+    projectPath: Library/LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/0b/0ba382f230655466aa2f7bb3b5913de2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/metadata/0b/0ba382f230655466aa2f7bb3b5913de2
+    projectPath: Library/metadata/0b/0ba382f230655466aa2f7bb3b5913de2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/44/440656ef994d54a4881085a7e29b50e1
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/metadata/44/440656ef994d54a4881085a7e29b50e1
+    projectPath: Library/metadata/44/440656ef994d54a4881085a7e29b50e1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/80/8044989cf975346ee961d99a451cc14a
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/metadata/80/8044989cf975346ee961d99a451cc14a
+    projectPath: Library/metadata/80/8044989cf975346ee961d99a451cc14a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    projectPath: Library/PlayerDataCache/Android/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/boot.config
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/boot.config
+    projectPath: Library/PlayerDataCache/Android/Data/boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/globalgamemanagers
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/globalgamemanagers
+    projectPath: Library/PlayerDataCache/Android/Data/globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level0
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level0
+    projectPath: Library/PlayerDataCache/Android/Data/level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level1
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level1
+    projectPath: Library/PlayerDataCache/Android/Data/level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level2
+    projectPath: Library/PlayerDataCache/Android/Data/level2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level3
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level3
+    projectPath: Library/PlayerDataCache/Android/Data/level3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level4
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level4
+    projectPath: Library/PlayerDataCache/Android/Data/level4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level5
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level5
+    projectPath: Library/PlayerDataCache/Android/Data/level5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level6
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level6
+    projectPath: Library/PlayerDataCache/Android/Data/level6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level7
+    projectPath: Library/PlayerDataCache/Android/Data/level7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level8
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level8
+    projectPath: Library/PlayerDataCache/Android/Data/level8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/level9
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/level9
+    projectPath: Library/PlayerDataCache/Android/Data/level9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonChat.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonChat.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonChat.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonRealtime.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonRealtime.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonRealtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Demos.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Demos.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Demos.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/PhotonWebSocket.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/PhotonWebSocket.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/PhotonWebSocket.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+    projectPath: Library/PlayerDataCache/Android/Data/Managed/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -148,3 +286,753 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+    projectPath: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+    projectPath: Temp/gradleOut/.gradle/5.1.1/executionHistory/executionHistory.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+    projectPath: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+    projectPath: Temp/gradleOut/.gradle/5.1.1/fileHashes/fileHashes.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    projectPath: Temp/gradleOut/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+    projectPath: Temp/gradleOut/build/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+    projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+    projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/7gb09Ym9B8Tsqx_dvCTxZqX7VFo=
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/7gb09Ym9B8Tsqx_dvCTxZqX7VFo=
+    projectPath: Temp/gradleOut/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/7gb09Ym9B8Tsqx_dvCTxZqX7VFo=
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+    projectPath: Temp/gradleOut/build/intermediates/instant_app_manifest/release/AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level3
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level3
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level4
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level4
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level5
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level5
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level6
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level6
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level7
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level8
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level8
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level9
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level9
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/level9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonChat.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonChat.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonChat.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonRealtime.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonRealtime.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonRealtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonWebSocket.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonWebSocket.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/PhotonWebSocket.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+    projectPath: Temp/gradleOut/build/intermediates/merged_assets/release/out/bin/Data/Managed/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+    projectPath: Temp/gradleOut/build/intermediates/merged_manifests/release/AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+    projectPath: Temp/gradleOut/build/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/build/reports/lint-results-release-fatal.html
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/build/reports/lint-results-release-fatal.html
+    projectPath: Temp/gradleOut/build/reports/lint-results-release-fatal.html
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/AndroidManifest.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/AndroidManifest.xml
+    projectPath: Temp/gradleOut/src/main/AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/boot.config
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/boot.config
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level0
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level0
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level1
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level1
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level2
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level3
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level3
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level4
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level4
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level5
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level5
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level6
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level6
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level7
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level8
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level8
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/level9
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/level9
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/level9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonChat.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonChat.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonChat.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonRealtime.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonRealtime.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonRealtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonWebSocket.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonWebSocket.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/PhotonWebSocket.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+    projectPath: Temp/gradleOut/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/AndroidManifest.xml
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/AndroidManifest.xml
+    projectPath: Temp/StagingArea/AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    projectPath: Temp/StagingArea/assets/bin/Data/4ee1e79e61cad4dcbb9b5a847d14de5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/boot.config
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/boot.config
+    projectPath: Temp/StagingArea/assets/bin/Data/boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/globalgamemanagers
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/globalgamemanagers
+    projectPath: Temp/StagingArea/assets/bin/Data/globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level0
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level0
+    projectPath: Temp/StagingArea/assets/bin/Data/level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level1
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level1
+    projectPath: Temp/StagingArea/assets/bin/Data/level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level2
+    projectPath: Temp/StagingArea/assets/bin/Data/level2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level3
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level3
+    projectPath: Temp/StagingArea/assets/bin/Data/level3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level4
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level4
+    projectPath: Temp/StagingArea/assets/bin/Data/level4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level5
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level5
+    projectPath: Temp/StagingArea/assets/bin/Data/level5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level6
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level6
+    projectPath: Temp/StagingArea/assets/bin/Data/level6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level7
+    projectPath: Temp/StagingArea/assets/bin/Data/level7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level8
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level8
+    projectPath: Temp/StagingArea/assets/bin/Data/level8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/level9
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/level9
+    projectPath: Temp/StagingArea/assets/bin/Data/level9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonChat.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonChat.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonChat.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonRealtime.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonRealtime.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonRealtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Demos.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonUnityNetworking.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/PhotonWebSocket.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/PhotonWebSocket.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/PhotonWebSocket.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+    projectPath: Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+    projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/executionHistory/executionHistory.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+    projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/5.1.1/fileHashes/fileHashes.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+    projectPath: Temp/StagingArea/gradleWarmupArea/.gradle/buildOutputCleanup/cache.properties
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/UnityTempFile-01248cdeaace24bda95e310b9aacbfca
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-01248cdeaace24bda95e310b9aacbfca
+    projectPath: Temp/UnityTempFile-01248cdeaace24bda95e310b9aacbfca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-0190b6e9579404e3a9de13769b8cba42
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-0190b6e9579404e3a9de13769b8cba42
+    projectPath: Temp/UnityTempFile-0190b6e9579404e3a9de13769b8cba42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-17c116d40b7a4450f9ff4aff8415776f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-17c116d40b7a4450f9ff4aff8415776f
+    projectPath: Temp/UnityTempFile-17c116d40b7a4450f9ff4aff8415776f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-1dcae6280c2e542a48bd0974b228968b
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-1dcae6280c2e542a48bd0974b228968b
+    projectPath: Temp/UnityTempFile-1dcae6280c2e542a48bd0974b228968b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-1fea1653689a64978891f5873a160986
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-1fea1653689a64978891f5873a160986
+    projectPath: Temp/UnityTempFile-1fea1653689a64978891f5873a160986
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-387ff3624c7a24ed095ee9c85e86fc3f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-387ff3624c7a24ed095ee9c85e86fc3f
+    projectPath: Temp/UnityTempFile-387ff3624c7a24ed095ee9c85e86fc3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-39319157510d44274b40a2b2d19df7aa
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-39319157510d44274b40a2b2d19df7aa
+    projectPath: Temp/UnityTempFile-39319157510d44274b40a2b2d19df7aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-3b6fe081e78b940f2af151a6a79de858
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-3b6fe081e78b940f2af151a6a79de858
+    projectPath: Temp/UnityTempFile-3b6fe081e78b940f2af151a6a79de858
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-43df34985c65241168d71a4c74a7b471
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-43df34985c65241168d71a4c74a7b471
+    projectPath: Temp/UnityTempFile-43df34985c65241168d71a4c74a7b471
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5eda129b06034429e828d589530ebfe2
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-5eda129b06034429e828d589530ebfe2
+    projectPath: Temp/UnityTempFile-5eda129b06034429e828d589530ebfe2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-6554030dccd5b46b0a3b3abc7b108a31
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-6554030dccd5b46b0a3b3abc7b108a31
+    projectPath: Temp/UnityTempFile-6554030dccd5b46b0a3b3abc7b108a31
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-65936729948c94d31b7a6e8f23622e82
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-65936729948c94d31b7a6e8f23622e82
+    projectPath: Temp/UnityTempFile-65936729948c94d31b7a6e8f23622e82
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-6ec54f24479bc42c4945d96c73031b3f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-6ec54f24479bc42c4945d96c73031b3f
+    projectPath: Temp/UnityTempFile-6ec54f24479bc42c4945d96c73031b3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-7db41e815d4774a669b8386a30695a43
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-7db41e815d4774a669b8386a30695a43
+    projectPath: Temp/UnityTempFile-7db41e815d4774a669b8386a30695a43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-88731384539e14bf48471db89aed6dd8
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-88731384539e14bf48471db89aed6dd8
+    projectPath: Temp/UnityTempFile-88731384539e14bf48471db89aed6dd8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8c52328e2a4a347faaa7f58d1293a597
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-8c52328e2a4a347faaa7f58d1293a597
+    projectPath: Temp/UnityTempFile-8c52328e2a4a347faaa7f58d1293a597
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-952217a512dfb412c9f7bf58c15f32a7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-952217a512dfb412c9f7bf58c15f32a7
+    projectPath: Temp/UnityTempFile-952217a512dfb412c9f7bf58c15f32a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-97392840cf59f47c68e20870755456e7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-97392840cf59f47c68e20870755456e7
+    projectPath: Temp/UnityTempFile-97392840cf59f47c68e20870755456e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-9a0b6a1a64c95430f9c4c2d3e1fa672f
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-9a0b6a1a64c95430f9c4c2d3e1fa672f
+    projectPath: Temp/UnityTempFile-9a0b6a1a64c95430f9c4c2d3e1fa672f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-a400336edddeb47b589e503299cacfb3
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-a400336edddeb47b589e503299cacfb3
+    projectPath: Temp/UnityTempFile-a400336edddeb47b589e503299cacfb3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-adb1aaf96cd844a8d958e9a27b66b12d
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-adb1aaf96cd844a8d958e9a27b66b12d
+    projectPath: Temp/UnityTempFile-adb1aaf96cd844a8d958e9a27b66b12d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ae8e1ad728b604a9c9b49d27c091da60
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-ae8e1ad728b604a9c9b49d27c091da60
+    projectPath: Temp/UnityTempFile-ae8e1ad728b604a9c9b49d27c091da60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-aeae122ccc81c4c37b3ff8104fdfb481
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-aeae122ccc81c4c37b3ff8104fdfb481
+    projectPath: Temp/UnityTempFile-aeae122ccc81c4c37b3ff8104fdfb481
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-af2681fd325dd4f6ea11cbdf23712d52
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-af2681fd325dd4f6ea11cbdf23712d52
+    projectPath: Temp/UnityTempFile-af2681fd325dd4f6ea11cbdf23712d52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b71aca52aaf4640838285d9d88e68501
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-b71aca52aaf4640838285d9d88e68501
+    projectPath: Temp/UnityTempFile-b71aca52aaf4640838285d9d88e68501
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b82eb02f6a0554630a5913a84ea1f714
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-b82eb02f6a0554630a5913a84ea1f714
+    projectPath: Temp/UnityTempFile-b82eb02f6a0554630a5913a84ea1f714
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c33831c786fb24c4a84a9658070fcea9
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-c33831c786fb24c4a84a9658070fcea9
+    projectPath: Temp/UnityTempFile-c33831c786fb24c4a84a9658070fcea9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ca8858ed11b7d489aa5771463486f34e
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-ca8858ed11b7d489aa5771463486f34e
+    projectPath: Temp/UnityTempFile-ca8858ed11b7d489aa5771463486f34e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-cb516dd3e5d154b64bfb95548d232ea7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-cb516dd3e5d154b64bfb95548d232ea7
+    projectPath: Temp/UnityTempFile-cb516dd3e5d154b64bfb95548d232ea7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-df51f6aff872c4ae98275fb2809c1c83
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-df51f6aff872c4ae98275fb2809c1c83
+    projectPath: Temp/UnityTempFile-df51f6aff872c4ae98275fb2809c1c83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e445b136a098d40b4a56f950c70ae3db
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-e445b136a098d40b4a56f950c70ae3db
+    projectPath: Temp/UnityTempFile-e445b136a098d40b4a56f950c70ae3db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e81839ac02d214e63874f9d2ce4a11b7
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-e81839ac02d214e63874f9d2ce4a11b7
+    projectPath: Temp/UnityTempFile-e81839ac02d214e63874f9d2ce4a11b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f6d9b934b34264cb996c28c6580d4c3b
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-f6d9b934b34264cb996c28c6580d4c3b
+    projectPath: Temp/UnityTempFile-f6d9b934b34264cb996c28c6580d4c3b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f7c8d9a5c9afe4f26be7689d04362c65
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-f7c8d9a5c9afe4f26be7689d04362c65
+    projectPath: Temp/UnityTempFile-f7c8d9a5c9afe4f26be7689d04362c65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f7fa795a91b49456fae44d2008db11eb
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-f7fa795a91b49456fae44d2008db11eb
+    projectPath: Temp/UnityTempFile-f7fa795a91b49456fae44d2008db11eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f92dd6e1f5c1a4e6780fa88ccf585a51
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-f92dd6e1f5c1a4e6780fa88ccf585a51
+    projectPath: Temp/UnityTempFile-f92dd6e1f5c1a4e6780fa88ccf585a51
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fa788fd1bf9e740f5855bb47222f0c60
+    fullPath: /Users/AJAY-MAC/Desktop/new/boatracinggame-unity/Temp/UnityTempFile-fa788fd1bf9e740f5855bb47222f0c60
+    projectPath: Temp/UnityTempFile-fa788fd1bf9e740f5855bb47222f0c60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

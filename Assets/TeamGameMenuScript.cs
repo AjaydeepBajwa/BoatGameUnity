@@ -135,7 +135,7 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
         {
 
             PhotonNetwork.CurrentRoom.IsOpen = false;
-            waitingStatusText.text = "2 Players found";
+            waitingStatusText.text = "" +maxPlayersPerRoom+" Players Joined";
             Debug.Log("Match is ready to begin");
 
             int playersJoinedCount = PhotonNetwork.PlayerList.Length;
@@ -159,17 +159,26 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
+
+        int playersJoinedCount = PhotonNetwork.PlayerList.Length;
+
+        for (int i = 0; i < playersJoinedCount; i++)
+        {
+            playerButtons[i].gameObject.SetActive(true);
+            playerNamesText[i].text = PhotonNetwork.PlayerList[i].NickName;
+            waitingStatusText.text = "" + i + " Player joined";
+        }
         //Debug.Log("PlayersCount in current room: " + PhotonNetwork.CurrentRoom.PlayerCount);
         if (PhotonNetwork.CurrentRoom.PlayerCount == maxPlayersPerRoom)
         {
-            int playersJoinedCount = PhotonNetwork.PlayerList.Length;
+            //int playersJoinedCount = PhotonNetwork.PlayerList.Length;
 
-            for (int j = 0; j < playersJoinedCount; j++)
-            {
-                playerButtons[j].gameObject.SetActive(true);
-                playerNamesText[j].text = PhotonNetwork.PlayerList[j].NickName;
-                //Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
-            }
+            //for (int j = 0; j < playersJoinedCount; j++)
+            //{
+            //    playerButtons[j].gameObject.SetActive(true);
+            //    playerNamesText[j].text = PhotonNetwork.PlayerList[j].NickName;
+            //    //Debug.Log("Players Name: " + PhotonNetwork.PlayerList[i].NickName);
+            //}
             //setTeams();
             showDoneButton();
         }

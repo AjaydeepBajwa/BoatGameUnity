@@ -32,13 +32,15 @@ public class TeamGameUIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        getPlayersScores();
+
         timeRem -= Time.deltaTime;
         timeRemText.text = "" + (int)timeRem;
         if (timeRem <= 0)
         {
             PhotonNetwork.LoadLevel(9);
         }
-        getPlayersScores();
+        
     }
 
     void OnDisable()
@@ -85,10 +87,11 @@ public class TeamGameUIManager : MonoBehaviour
         int t2P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t2P2Index"];
         //Debug.Log("TEAM 2 INDEXES ARE: " + t2P1Index + " and " + t2P2Index);
 
-        string t1P1Name = (string)PhotonNetwork.PlayerList[t1P1Index].NickName;
-        string t1P2Name = (string)PhotonNetwork.PlayerList[t1P2Index].NickName;
-        string t2P1Name = (string)PhotonNetwork.PlayerList[t2P1Index].NickName;
-        string t2P2Name = (string)PhotonNetwork.PlayerList[t2P2Index].NickName;
+        string t1P1Name = PhotonNetwork.PlayerList[t1P1Index].NickName;
+        string t1P2Name = PhotonNetwork.PlayerList[t1P2Index].NickName;
+        string t2P1Name = PhotonNetwork.PlayerList[t2P1Index].NickName;
+        string t2P2Name = PhotonNetwork.PlayerList[t2P2Index].NickName;
+        Debug.Log("NAMES:" + t1P1Name + "  " + t1P2Name + " " + t2P1Name + " " + t2P2Name);
 
         int t1P1Score = (int)PhotonNetwork.PlayerList[t1P1Index].CustomProperties["score"];
         int t1P2Score = (int)PhotonNetwork.PlayerList[t1P2Index].CustomProperties["score"];
@@ -100,10 +103,10 @@ public class TeamGameUIManager : MonoBehaviour
         int team1Score = t1P1Score + t1P2Score;
         int team2Score = t2P1Score + t2P2Score;
 
-        t1ScoreText.text = "" + team1Score;
-        t2ScoreText.text = "" + team2Score;
-
         Debug.Log("Team1 Score:" + team1Score + "and Team2 Score: " + team2Score);
+
+        t1ScoreText.text = "Team 1: " + team1Score;
+        t2ScoreText.text = "Team 2: " + team2Score;
 
         Hashtable hash = new Hashtable();
         hash.Add("t1P1Name", t1P1Name);
