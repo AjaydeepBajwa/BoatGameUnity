@@ -38,7 +38,8 @@ public class TeamGameUIManager : MonoBehaviour
         timeRemText.text = "" + (int)timeRem;
         if (timeRem <= 0)
         {
-            PhotonNetwork.LoadLevel(9);
+            SceneManager.LoadScene(9);
+         //   PhotonNetwork.LoadLevel(9);
         }
     }
 
@@ -78,13 +79,23 @@ public class TeamGameUIManager : MonoBehaviour
     {
 
         //playerList[0] is master client
-        int t1P1Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P1Index"];
-        int t1P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t1P2Index"];
+        int t1P1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["t1P1Index"];
+        int t1P2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["t1P2Index"];
         //Debug.Log("TEAM 1 INDEXES ARE: " + t1P1Index + " and " + t1P2Index);
 
-        int t2P1Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t2P1Index"];
-        int t2P2Index = (int)PhotonNetwork.LocalPlayer.CustomProperties["t2P2Index"];
+        int t2P1Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["t2P1Index"];
+        int t2P2Index = (int)PhotonNetwork.PlayerList[0].CustomProperties["t2P2Index"];
         //Debug.Log("TEAM 2 INDEXES ARE: " + t2P1Index + " and " + t2P2Index);
+
+        int userIndex = PhotonNetwork.LocalPlayer.ActorNumber;
+        if ((userIndex == t1P1Index)||(userIndex == t1P2Index)){
+            t1ScoreText.color = Color.red;
+            t1ScoreText.fontStyle = FontStyle.BoldAndItalic;
+        }
+        if ((userIndex == t2P1Index)||(userIndex == t2P2Index)){
+            t2ScoreText.color = Color.red;
+            t2ScoreText.fontStyle = FontStyle.BoldAndItalic;
+        }
 
         string t1P1Name = PhotonNetwork.PlayerList[t1P1Index].NickName;
         string t1P2Name = PhotonNetwork.PlayerList[t1P2Index].NickName;
@@ -117,8 +128,10 @@ public class TeamGameUIManager : MonoBehaviour
         hash.Add("t2P1Score", t2P1Score);
         hash.Add("t2P2Score", t2P2Score);
         hash.Add("team1Score", team1Score);
-        hash.Add("team2Score", team1Score);
+        hash.Add("team2Score", team2Score);
         PhotonNetwork.SetPlayerCustomProperties(hash);
+
+
     }
 
     public void gotoTeamGameOver()

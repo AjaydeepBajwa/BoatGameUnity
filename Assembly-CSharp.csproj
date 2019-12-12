@@ -81,7 +81,6 @@
     <Compile Include="Assets\Scripts\ObjectRemover.cs" />
     <Compile Include="Assets\Scripts\PlayerNameInput.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-    <Compile Include="Assets\Scripts\SpawnObjects.cs" />
     <Compile Include="Assets\Scripts\SpawnPickups.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\SpawnObjectsOnRight.cs" />

@@ -10,9 +10,10 @@ public class UIManager : MonoBehaviour
     public Text[] btnTexts;
     public int score = 0;
     public Text txtScore;
+    bool gotCircle;
+    //public Text micTextBool;
 
     public AudioManager audioMan;
-
     // Start is called before the first frame update
     void Start()
     {

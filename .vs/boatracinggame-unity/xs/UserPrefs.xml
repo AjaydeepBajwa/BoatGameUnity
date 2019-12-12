@@ -1,20 +1,15 @@
 ﻿<Properties StartupConfiguration="{BD9E913F-3818-B05E-E82A-87BAA7074F27}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TeamGameOverScript.cs">
     <Files>
-      <File FileName="Assets/TeamGameObjectRemover.cs" Line="34" Column="10" />
-      <File FileName="Assets/TeamGameMenuScript.cs" Line="284" Column="32" />
-      <File FileName="Assets/Scripts/UIManager.cs" Line="129" Column="33" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" Line="1668" Column="1" />
-      <File FileName="Assets/Scripts/MicInputCheck.cs" Line="36" Column="1" />
-      <File FileName="Assets/TeamGameUIManager.cs" Line="66" Column="23" />
-      <File FileName="Assets/TeamGamePlayerScript.cs" Line="25" Column="32" />
-      <File FileName="Assets/TeamGameOverScript.cs" Line="59" Column="45" />
-      <File FileName="Assets/Scripts/PlayerNameInput.cs" Line="67" Column="36" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="31" Column="25" />
-      <File FileName="Assets/ScoreUpdater.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" Line="134" Column="36" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/RightBoatMoveScript.cs" Line="131" Column="36" />
-      <File FileName="Assets/Scripts/MultiPlayer Scripts/SpawnObjectsOnLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIManagerMulti.cs" Line="49" Column="1" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/LeftBoatMoveScript.cs" Line="13" Column="20" />
+      <File FileName="Assets/Scripts/MultiPlayer Scripts/ObjectRemoverScript.cs" Line="17" Column="6" />
+      <File FileName="Assets/TeamGameMenuScript.cs" Line="282" Column="5" />
+      <File FileName="Assets/SpawnObjectsOnRight.cs" Line="1" Column="1" />
+      <File FileName="Assets/TeamGameObjectRemover.cs" Line="1" Column="1" />
+      <File FileName="Assets/TeamGamePlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/TeamGameUIManager.cs" Line="81" Column="41" />
+      <File FileName="Assets/TeamGameOverScript.cs" Line="41" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,10 +22,9 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="MultiPlayer Scripts" expanded="True">
-                  <Node name="LeftBoatMoveScript.cs" selected="True" />
-                </Node>
+                <Node name="MultiPlayer Scripts" expanded="True" />
               </Node>
+              <Node name="TeamGameOverScript.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -39,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e53d741c-dae0-4180-9d81-5c02d7e7cfdd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b332a5b-fa97-4c9b-8b6b-6cfe1a684742" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

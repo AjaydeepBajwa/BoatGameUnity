@@ -30,22 +30,29 @@ public class TeamGameOverScript : MonoBehaviour
 
     public void getScores()
     {
-        int team1Score = (int)PhotonNetwork.LocalPlayer.CustomProperties["team1Score"];
-        int team2Score = (int)PhotonNetwork.LocalPlayer.CustomProperties["team2Score"];
+        int team1Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["team1Score"];
+        int team2Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["team2Score"];
 
         team1ScoreText.text = "Total: " + team1Score;
         team2ScoreText.text = "Total:" + team2Score;
 
-        t1p1NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t1P1Name"]+":";
-        t1p2NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t1P2Name"] + ":";
-        t2p1NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t2P1Name" + ":"];
-        t2p2NameText.text = ""+PhotonNetwork.LocalPlayer.CustomProperties["t2P2Name" + ":"];
+        t1p1NameText.text = ""+(string)PhotonNetwork.PlayerList[0].CustomProperties["t1P1Name"]+":";
+        t1p2NameText.text = ""+ (string)PhotonNetwork.PlayerList[0].CustomProperties["t1P2Name"] + ":";
+        t2p1NameText.text = ""+ (string)PhotonNetwork.PlayerList[0].CustomProperties["t2P1Name"] + ":";
+        t2p2NameText.text = ""+ (string)PhotonNetwork.PlayerList[0].CustomProperties["t2P2Name"] + ":";
+
+        Debug.Log("At game over: Team1: " + team1Score + "team2: " + team2Score);
 
 
-        t1p1ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t1P1Score"];
-        t1p2ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t1P2Score"];
-        t2p1ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t2P1Score"];
-        t2p2ScoreText.text = (string)PhotonNetwork.LocalPlayer.CustomProperties["t2P2Score"];
+        int t1p1Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["t1P1Score"];
+        int t1p2Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["t1P2Score"];
+        int t2p1Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["t2P1Score"];
+        int t2p2Score = (int)PhotonNetwork.PlayerList[0].CustomProperties["t2P2Score"];
+
+        t1p1ScoreText.text = ""+t1p1Score;
+        t1p2ScoreText.text = "" + t1p2Score;
+        t2p1ScoreText.text = "" + t2p1Score;
+        t2p2ScoreText.text = "" + t2p2Score;
 
 
         if (team1Score > team2Score)

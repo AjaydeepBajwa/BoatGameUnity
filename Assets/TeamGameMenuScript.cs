@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
-
+using UnityEngine.SceneManagement;
 
 public class TeamGameMenuScript : MonoBehaviourPunCallbacks
 {
@@ -173,6 +173,11 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
         {
             showDoneButton();
         }
+
+        if ((bool)PhotonNetwork.LocalPlayer.CustomProperties["started"] == true)
+        {
+            SceneManager.LoadScene(8);
+        }
     }
 
     public void switchTeam()
@@ -283,8 +288,11 @@ public class TeamGameMenuScript : MonoBehaviourPunCallbacks
 
     public void startTeamGame()
     {
-        
-        PhotonNetwork.LoadLevel(8);
+        Hashtable hash = new Hashtable();
+        hash.Add("started", true);
+        PhotonNetwork.SetPlayerCustomProperties(hash);
+
+        //PhotonNetwork.LoadLevel(8);
     }
  
 }

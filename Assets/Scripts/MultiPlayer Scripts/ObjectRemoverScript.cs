@@ -15,7 +15,6 @@ public class ObjectRemoverScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = delayTimer;
         breakAnim.SetActive(false);
         breakAnim2.SetActive(false);
     }
